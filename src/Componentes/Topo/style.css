@@ -1,0 +1,32 @@
+header {
+    background-color: #f9f6ee;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    position: fixed;
+}
+
+header img {
+    height: 60px;
+    width: auto;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-topo {
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    color: #111111;
+    padding: 0 20px;
+    letter-spacing: 1px;
+    font-weight: 600px;
+}
+
+.link-topo:hover {
+    color: goldenrod;
+}
