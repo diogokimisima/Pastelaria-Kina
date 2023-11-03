@@ -1,40 +1,62 @@
 .secao-banner {
-    height: calc(600px);
-    padding: 50px 30px;
-    background-image: url(../../img/banner.jpg);
-    background-position: center center;
+    height: 80vh;
+    padding-top: 90px;
+    display: flex;
+    position: relative;
+
+}
+
+.imagem-de-fundo {
+    width: 50%;
+    background-image: url('../../img/food1.JPEG');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    object-fit: cover;
+}
+
+.texto-secaoBanner {
+    width: 50%;
+    padding: 0px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    
+    background-color: #f9f6ee;
 }
 
-.escrita-banner  {
-    background-color: rgba(49, 49, 49, 0.6);
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    width: 500px;
-    padding: 20px;
+.texto-secaoBanner h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #111111;
+    font-family: 'Palanquin Dark', sans-serif;
+    letter-spacing: 2px;
+}
+
+.texto-secaoBanner span {
+    color: #fbcb0c;
+}
+
+.texto-secaoBanner p {
+    font-size: 25px;
+}
+
+.secao-icone {
+    margin-top: 25px;
 }
 
 
-.escrita-banner h1 {
-    letter-spacing: 5px;  
-    font-size: 46px;
-    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
-    color: white;
-    margin-bottom: 30px;
-    
+.icone {
+    max-width: auto;
+    height: 30px;
+    margin-right: 20px;
 }
 
-.secao-banner p {
-    font-family: 'Relaway', sans-serif;
-    font-size: 38px;
-    color:#fcfce4;
-    
-}
+@media screen and (max-width: 768px) {
+    .imagem-de-fundo {
+        width: 0;
+    }
 
+    .texto-secaoBanner {
+        width: 100%;
+    }
+}

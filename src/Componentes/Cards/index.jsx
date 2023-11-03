@@ -2,11 +2,11 @@ import "./style.css";
 
 const Cards = ({produto}) => {
     return (
-        <div>
+        <div className="card">
             <figure>
                 <img src={produto.imagem} alt={produto.nome} />
             </figure>
-            <div className="container-informcaoes">
+            <div className="container-informacoes">
                 <div>
                     <h3>{produto.nome}</h3>
                     <small>{produto.categoria}</small>

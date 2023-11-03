@@ -1,3 +1,4 @@
+//SALGADOS
 import bolBacalhau from '../img/bol-bacalhau.jpg';
 import bolQueijo from '../img/bol-queijo.jpg';
 import coxCarne from '../img/coxinha-carne.jpg';
@@ -5,8 +6,9 @@ import coxFrango from '../img/coxinha-frango.jpg';
 import kibeQueijo from '../img/kibe-queijo.jpg';
 import kibeCarne from '../img/kibe-carne.jpg';
 import massinha from '../img/massinha.jpg';
-import massa from '../img/massa.jpg;'
+import massa from '../img/massa.jpg';
 
+//PASTEIS
 import atum from '../img/pastel-atum.jpg';
 import bacalhau from '../img/pastel-bacalhau.jpg';
 import banana from '../img/pastel-banana.jpg';
@@ -20,12 +22,17 @@ import palmito from '../img/pastel-palmito.jpg';
 import palmitoCatupiry from '../img/pastel-palmito-catupiry.jpg'
 import camarao from '../img/pastel-camarao.jpg';
 import carne from '../img/pastel-carne.jpg';
+import carneQueijo from '../img/pastel-carne-queijo.jpg';
 import queijo from '../img/pastel-queijo.jpg';
 import frango from '../img/pastel-frango.jpg';
 import pizza from '../img/pastel-pizza.jpg';
 import bauru from '../img/pastel-bauru.jpg';
 import romeu from '../img/pastel-romeu.jpg';
+import quatroQueijo from '../img/pastel-4queijo.jpg';
 
+//BEBIDAS
+import cocaLata from '../img/coca-lata.png';
+import guaranaLata from '../img/guarana-lata.png';
 
 
 export const produtos = [
@@ -198,7 +205,14 @@ export const produtos = [
         imagem: carne,
     },
     {
-        id: 22,
+        id: 30,
+        nome: "Carne com Queijo",
+        categoria: "Pastel",
+        preco: 12.00,
+        imagem: carneQueijo,
+    },
+    {
+        id: 24,
         nome: "Queijo",
         categoria: "Pastel",
         preco: 12.00,
@@ -206,7 +220,7 @@ export const produtos = [
         imagem: queijo,
     },
     {
-        id: 23,
+        id: 25,
         nome: "Frango",
         categoria: "Pastel",
         preco: 12.00,
@@ -214,7 +228,7 @@ export const produtos = [
         imagem: frango,
     },
     {
-        id: 24,
+        id: 26,
         nome: "Pizza",
         categoria: "Pastel",
         preco: 12.00,
@@ -222,7 +236,7 @@ export const produtos = [
         imagem: pizza,
     },
     {
-        id: 25,
+        id: 27,
         nome: "Bauru",
         categoria: "Pastel",
         preco: 12.00,
@@ -230,11 +244,34 @@ export const produtos = [
         imagem: bauru,
     },
     {
-        id: 26,
+        id: 28,
         nome: "Romeu e julieta",
         categoria: "Pastel",
         preco: 12.00,
         descricao: "Pastel recheado com goiabada e queijo ",
         imagem: romeu,
     },
+    {
+        id: 29,
+        nome: "4 Queijo",
+        categoria: "Pastel",
+        preco: 15.00,
+        imagem: quatroQueijo,
+    },
+    //bebida
+    {
+        id: 30,
+        nome: "Coca lata",
+        categoria: "Bebidas",
+        preco: 6.00,
+        imagem: cocaLata,
+    },
+    {
+        id: 31,
+        nome: "Guarana lata",
+        categoria: "Bebidas",
+        preco: 6.00,
+        imagem: guaranaLata,
+    },
+    
 ];
