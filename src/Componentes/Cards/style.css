@@ -5,6 +5,7 @@
     flex-direction: column;
     border: 2px solid goldenrod;
     border-radius: 4px;
+    background-color: white;
 }
 
 .card figure {
@@ -46,11 +47,20 @@
     .card {
       width: 100%;
       flex-direction: row;
-
+      margin-bottom: -20px;
     }
 
     .card figure {
       width: 100px;
-      height: auto;
+      height: 100px;
+      
+    }
+
+    .card p {
+      font-size: 12px;
+    }
+
+    .card h3 {
+      font-size: 16px;
     }
   }

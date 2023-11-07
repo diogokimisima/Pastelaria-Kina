@@ -29,24 +29,48 @@ import pizza from '../img/pastel-pizza.jpg';
 import bauru from '../img/pastel-bauru.jpg';
 import romeu from '../img/pastel-romeu.jpg';
 import quatroQueijo from '../img/pastel-4queijo.jpg';
+import pastelVento from '../img/icone-pastel.png';
 
 //BEBIDAS
 import cocaLata from '../img/coca-lata.png';
 import guaranaLata from '../img/guarana-lata.png';
+import cocaZeroLata from  '../img/coca-zero-lata.png'; 
+import spriteLata from '../img/sprite-lata.png';
+import sweppsLata from '../img/swepps-lata.png';
+import fantaUva from '../img/fanta-uva.png';
+import fantaLaranja from '../img/fanta-laranja.png';
+import dellVallePessego from '../img/dellvale-pessego.png';
+import dellValleUva from '../img/dellvale-uva.png';
+import sucoNatural from '../img/suco-natural.png';
+import coca600 from '../img/coca-600.png';
+import coca600Zero from '../img/coca-600-zero.png';
+import guarana600 from '../img/guarana-600.png';
+import guarana600Zero from '../img/guarana-600-zero.png';
+import sprite600 from '../img/sprite-600.png';
+import h2oLimao from '../img/h2o-limao.png';
+import h2oLimoneto from '../img/h2o-limoneto.png';
+import spriteLemon from '../img/sprite-lemon.png';
+import agua from '../img/agua.png';
+import aguaGas from '../img/agua-gas.png';
+import brahma from '../img/brahma.png'
+import skol from '../img/skol.png';
+import heineken from '../img/heineken.png';
+
+
 
 
 export const produtos = [
     {
         id: 1,
-        nome: "Bolinho de bacalhau",
+        nome: "Coxinha de frango",
         categoria: "Salgados",
-        preco: 6.00,
-        descricao: "Bolinho com massa de batata recheado com bacalhau",
-        imagem: bolBacalhau,
+        preco: 2.00,
+        descricao: "Coxinha com massa de batata recheado com frango",
+        imagem: coxFrango,
     },
     {
         id: 2,
-        nome: "bolQueijo",
+        nome: "Bolinha de queijo",
         categoria: "Salgados",
         preco: 2.00,
         descricao: "Bolinho com massa de mandioca recheado com queijo",
@@ -60,13 +84,14 @@ export const produtos = [
         descricao: "Coxinha com massa de mandioca recheado com carne",
         imagem: coxCarne,
     },
+
     {
         id: 4,
-        nome: "Coxinha de frango",
-        categoria: "Salgado",
-        preco: 2.00,
-        descricao: "Coxinha com massa de batata recheado com frango",
-        imagem: coxFrango,
+        nome: "Bolinho de bacalhau",
+        categoria: "Salgados",
+        preco: 6.00,
+        descricao: "Bolinho com massa de batata recheado com bacalhau",
+        imagem: bolBacalhau,
     },
     {
         id: 5,
@@ -100,104 +125,17 @@ export const produtos = [
         descricao: "Rolo da massa de pastel",
         imagem: massa,
     },
+
     {
         id: 9,
-        nome: "Atum com catupiry",
+        nome: "Carne com Queijo",
         categoria: "Pastel",
-        preco: 15.00,
-        descricao: "Pastel com recheio de atum desfiado e catupiry",
-        imagem: atum,
+        preco: 12.00,
+        descricao: "Pastel com recheio de carne moiada e queijo",
+        imagem: carneQueijo,
     },
     {
         id: 10,
-        nome: "Bacalhau",
-        categoria: "Pastel",
-        preco: 15.00,
-        descricao: "Pastel com recheio de bacalhau temperado e uma azeitona preta",
-        imagem: bacalhau,
-    },
-    {
-        id: 11,
-        nome: "Banana",
-        categoria: "Pastel",
-        preco: 12.00,
-        descricao: "Pastel com recheio de banana com açucar e canela ao redor do pastel",
-        imagem: banana,
-    },
-    {
-        id: 12,
-        nome: "Brócolis",
-        categoria: "Pastel",
-        preco: 15.00,
-        descricao: "Pastel com recheio de brócolis, queijo e catupiry",
-        imagem: brocolis,
-    },
-    {
-        id: 13,
-        nome: "Calabresa",
-        categoria: "Pastel",
-        preco: 12.00,
-        descricao: "Pastel com recheio de calabresa, queijo e uma rodela de tomate",
-        imagem: calabresa,
-    },
-    {
-        id: 14,
-        nome: "Carne seca",
-        categoria: "Pastel",
-        preco: 20.00,
-        descricao: "Pastel recheado com carne seca desfiada, catupiry e uma rodela de tomate",
-        imagem: carneSeca,
-    },
-    {
-        id: 15,
-        nome: "Doce",
-        categoria: "Pastel",
-        preco: 12.00,
-        descricao: "Pastel recheado com chocolate e doce de leite",
-        imagem: doce,
-    },
-    {
-        id: 16,
-        nome: "Especial",
-        categoria: "Pastel",
-        preco: 20.00,
-        descricao: "Pastel recheado com carne moiada, queijo, presunto, ovo cozido e uma azeitona",
-        imagem: especial,
-    },
-    {
-        id: 17,
-        nome: "Lombo Canadense",
-        categoria: "Pastel",
-        preco: 15.00,
-        descricao: "Pastel recheado com lombo canadense",
-        imagem: lombo,
-    },
-    {
-        id: 18,
-        nome: "Palmito",
-        categoria: "Pastel",
-        preco: 12.00,
-        descricao: "Pastel recheado com palmito e cebolinha",
-        imagem: palmito,
-    },
-    {
-        id: 19,
-        nome: "Palmito Catupiry",
-        categoria: "Pastel",
-        preco: 15.00,
-        descricao: "Pastel recheado com palmito, catupiry e cebolinha",
-        imagem: palmitoCatupiry,
-    },
-    {
-        id: 20,
-        nome: "Camarão",
-        categoria: "Pastel",
-        preco: 20.00,
-        descricao: "Pastel recheado com camarão e catupiry ",
-        imagem: camarao,
-    },
-    {
-        id: 21,
         nome: "Carne",
         categoria: "Pastel",
         preco: 12.00,
@@ -205,14 +143,7 @@ export const produtos = [
         imagem: carne,
     },
     {
-        id: 30,
-        nome: "Carne com Queijo",
-        categoria: "Pastel",
-        preco: 12.00,
-        imagem: carneQueijo,
-    },
-    {
-        id: 24,
+        id: 11,
         nome: "Queijo",
         categoria: "Pastel",
         preco: 12.00,
@@ -220,15 +151,15 @@ export const produtos = [
         imagem: queijo,
     },
     {
-        id: 25,
-        nome: "Frango",
+        id: 12,
+        nome: "Frango Catupiry",
         categoria: "Pastel",
         preco: 12.00,
         descricao: "Pastel recheado com frango desfiado e catupiry",
         imagem: frango,
     },
     {
-        id: 26,
+        id: 13,
         nome: "Pizza",
         categoria: "Pastel",
         preco: 12.00,
@@ -236,7 +167,7 @@ export const produtos = [
         imagem: pizza,
     },
     {
-        id: 27,
+        id: 14,
         nome: "Bauru",
         categoria: "Pastel",
         preco: 12.00,
@@ -244,7 +175,47 @@ export const produtos = [
         imagem: bauru,
     },
     {
-        id: 28,
+        id: 15,
+        nome: "Calabresa",
+        categoria: "Pastel",
+        preco: 12.00,
+        descricao: "Pastel com recheio de calabresa, queijo e uma rodela de tomate",
+        imagem: calabresa,
+    },
+    {
+        id: 16,
+        nome: "Palmito",
+        categoria: "Pastel",
+        preco: 12.00,
+        descricao: "Pastel recheado com palmito e cebolinha",
+        imagem: palmito,
+    },
+    {
+        id: 17,
+        nome: "Palmito Catupiry",
+        categoria: "Pastel",
+        preco: 15.00,
+        descricao: "Pastel recheado com palmito, catupiry e cebolinha",
+        imagem: palmitoCatupiry,
+    },
+    {
+        id: 18,
+        nome: "Banana",
+        categoria: "Pastel",
+        preco: 12.00,
+        descricao: "Pastel com recheio de banana com açucar e canela ao redor do pastel",
+        imagem: banana,
+    },
+    {
+        id: 19,
+        nome: "Doce",
+        categoria: "Pastel",
+        preco: 12.00,
+        descricao: "Pastel recheado com chocolate e doce de leite",
+        imagem: doce,
+    },
+    {
+        id: 20,
         nome: "Romeu e julieta",
         categoria: "Pastel",
         preco: 12.00,
@@ -252,19 +223,87 @@ export const produtos = [
         imagem: romeu,
     },
     {
-        id: 29,
+        id: 21,
+        nome: "Brócolis",
+        categoria: "Pastel",
+        preco: 15.00,
+        descricao: "Pastel com recheio de brócolis, queijo e catupiry",
+        imagem: brocolis,
+    },
+    {
+        id: 22,
+        nome: "Lombo Canadense",
+        categoria: "Pastel",
+        preco: 15.00,
+        descricao: "Pastel recheado com lombo canadense",
+        imagem: lombo,
+    },
+    {
+        id: 23,
         nome: "4 Queijo",
         categoria: "Pastel",
         preco: 15.00,
+        descricao: "Pastel recheado 4 tipos de queijos(mussarela, queijo prato, provolone e catupiry)",
         imagem: quatroQueijo,
     },
+    {
+        id: 24,
+        nome: "Atum catupiry",
+        categoria: "Pastel",
+        preco: 15.00,
+        descricao: "Pastel com recheio de atum desfiado e catupiry",
+        imagem: atum,
+    },
+    {
+        id: 25,
+        nome: "Bacalhau",
+        categoria: "Pastel",
+        preco: 15.00,
+        descricao: "Pastel com recheio de bacalhau temperado e uma azeitona preta",
+        imagem: bacalhau,
+    },
+
+
+    {
+        id: 26,
+        nome: "Carne seca",
+        categoria: "Pastel",
+        preco: 20.00,
+        descricao: "Pastel recheado com carne seca desfiada, catupiry e uma rodela de tomate",
+        imagem: carneSeca,
+    },
+
+    {
+        id: 27,
+        nome: "Especial",
+        categoria: "Pastel",
+        preco: 20.00,
+        descricao: "Pastel recheado com carne moiada, queijo, presunto, ovo cozido e uma azeitona",
+        imagem: especial,
+    },
+    {
+        id: 28,
+        nome: "Camarão",
+        categoria: "Pastel",
+        preco: 20.00,
+        descricao: "Pastel recheado com camarão e catupiry ",
+        imagem: camarao,
+    },
+
     //bebida
     {
-        id: 30,
+        id: 29,
         nome: "Coca lata",
         categoria: "Bebidas",
         preco: 6.00,
         imagem: cocaLata,
+    },
+    {
+        id:30,
+        nome: "Coca zero lata",
+        categoria: "Bebidas",
+        preco: 6.00,
+        imagem: cocaZeroLata,
     },
     {
         id: 31,
@@ -273,5 +312,166 @@ export const produtos = [
         preco: 6.00,
         imagem: guaranaLata,
     },
-    
+    {
+        id: 32,
+        nome: "Sprite lata",
+        categoria: "Bebidas",
+        preco: 6.00,
+        imagem: spriteLata,
+    }, 
+    {
+        id: 33,
+        nome: "Fanta Uva lata",
+        categoria: "Bebidas",
+        preco: 6.00,
+        imagem: fantaUva,
+    }, 
+    {
+        id: 34,
+        nome: "Fanta Laranja lata",
+        categoria: "Bebidas",
+        preco: 6.00,
+        imagem: fantaLaranja,
+    }, 
+    {
+        id: 35,
+        nome: "Swepps lata",
+        categoria: "Bebidas",
+        preco: 7.00,
+        imagem: sweppsLata,
+    },    
+    {
+        id: 36,
+        nome: "Coca 600",
+        categoria: "Bebidas",
+        preco: 7.00,
+        imagem: coca600,
+    }, 
+    {
+        id: 37,
+        nome: "Coca 600 zero",
+        categoria: "Bebidas",
+        preco: 7.00,
+        imagem: coca600Zero,
+    }, 
+    {
+        id: 38,
+        nome: "Guarana 600",
+        categoria: "Bebidas",
+        preco: 7.00,
+        imagem: guarana600,
+    }, 
+    {
+        id: 39,
+        nome: "Guarana 600 zero",
+        categoria: "Bebidas",
+        preco: 7.00,
+        imagem: guarana600Zero,
+    },
+    {
+        id: 40,
+        nome: "Sprite 600",
+        categoria: "Bebidas",
+        preco: 7.00,
+        imagem: sprite600,
+    }, 
+    {
+        id: 41,
+        nome: "H2O limao",
+        categoria: "Bebidas",
+        preco: 7.00,
+        imagem: h2oLimao,
+    }, 
+    {
+        id: 42,
+        nome: "H2O limoneto",
+        categoria: "Bebidas",
+        preco: 7.00,
+        imagem: h2oLimoneto,
+    }, 
+    {
+        id: 43,
+        nome: "Sprite lemon",
+        categoria: "Bebidas",
+        preco: 7.00,
+        imagem: spriteLemon,
+    }, 
+    {
+        id: 44,
+        nome: "Dell Vale pessego lata",
+        categoria: "Bebidas",
+        preco: 6.00,
+        imagem: dellVallePessego,
+    }, 
+    {
+        id: 45,
+        nome: "Dell Vale uva lata",
+        categoria: "Bebidas",
+        preco: 6.00,
+        imagem: dellValleUva,
+    }, 
+    {
+        id: 46,
+        nome: "Suco natural de laranja",
+        categoria: "Bebidas",
+        preco: 7.00,
+        imagem:sucoNatural,
+    },
+    {
+        id: 47,
+        nome: "Água",
+        categoria: "Bebidas",
+        preco: 3.00,
+        imagem: agua,
+    }, 
+    {
+        id: 48,
+        nome: "Água com gás",
+        categoria: "Bebidas",
+        preco: 3.00,
+        imagem: aguaGas,
+    }, 
+    {
+        id: 49,
+        nome: "Brahma lata",
+        categoria: "Bebidas",
+        preco: 6.00,
+        imagem: brahma,
+    }, 
+    {
+        id: 50,
+        nome: "Skol Lata",
+        categoria: "Bebidas",
+        preco: 6.00,
+        imagem: skol,
+    }, 
+    {
+        id: 51,
+        nome: "Heineken lata",
+        categoria: "Bebidas",
+        preco: 7.00,
+        imagem: heineken,
+    }, 
+    {
+        id: 52,
+        nome: "Pastel de vento",
+        categoria: "Massa",
+        preco: 7.00,
+        descricao: "Pastel sem recheio",
+        imagem: pastelVento
+    },
+    {
+        id: 53,
+        nome: "Pastel Costela",
+        categoria: "Pastel",
+        preco: 20.00,
+        descricao: "Pastel recheado com costela desfiada e queijo",
+        imagem: carneSeca
+    }
+
+
+
+
+ 
+
 ];

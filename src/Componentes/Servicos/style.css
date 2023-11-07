@@ -1,0 +1,57 @@
+.secao-servicos {
+    margin: 50px auto;
+}
+.secao-servicos h2{
+    text-align: center;
+    color: #139b51;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.cards-servicos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards img {
+    width: 180px;
+    height: auto;
+    border: solid 4px goldenrod;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: white;
+    
+}
+
+.cards{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 50px 0;
+}
+
+@media (max-width: 1023px) {
+    .secao-servicos {
+      padding: 15px;
+    }
+  }
+
+@media  (max-width: 700px) {
+    .cards-servicos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards img {
+        width: 130px;
+        height: auto;
+        border: solid 4px goldenrod;
+        padding: 20px;
+    }
+
+    .cards{
+        font-size: 18px;
+        margin: 30px;
+    }
+}

@@ -3,6 +3,7 @@ import {useState} from 'react';
 import Topo from '../../Componentes/Topo';
 import Cards from '../../Componentes/Cards';
 import Categoria from '../../Componentes/Categoria';
+import Rodape from '../../Componentes/Rodape';
 
 import {
   filtrarProdutos,
@@ -22,14 +23,18 @@ const Cardapio = () => {
   return (
     <div>
         <Topo />
-        
         <main className="container-principal">
+
+        <div>
+            <h2>Cardápio</h2>
+            <h4>Conheca o nosso cardápio</h4>
+        </div>
+        
+        
         <Categoria handleFiltro={handleFiltro} botaoClicado={botaoClicado}/>
 
         <section className="secao-cards">
-          <div>
-            <h2>Cardápio</h2>
-          </div>
+         
 
           <div className="container-cards">
             {dadosFiltrados.map((produto) => (
@@ -37,8 +42,10 @@ const Cardapio = () => {
             ))}
           </div>
 
+             
         </section>
       </main>
+      <Rodape />
     </div>
   );
 };

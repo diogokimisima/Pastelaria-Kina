@@ -1,7 +1,10 @@
 .secao-categorias {
-    max-width: 1024px;
-    margin: 0 auto;
+    max-width: 1324px;
+    margin: 30px auto;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -17,12 +20,15 @@
     padding: 10px 0;
     flex: 1 1 150px;
     border: 0;
-    border-radius: 5px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.086);
     font-weight: bold;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    background-color: white;
 }
 
 .container-botoes img{
@@ -39,3 +45,22 @@
     background-color: goldenrod;
   }
 
+  @media (max-width: 1324px){
+
+    .container-botoes {
+        margin: 10px;
+    }
+
+    .container-botoes button {
+        font-size: 15px;
+    }
+  }
+  @media(max-width: 1024px){
+    .container-botoes img{
+        width: auto;
+        height: 20px;
+        margin-right: 5px;   
+    }
+  }
+
+  

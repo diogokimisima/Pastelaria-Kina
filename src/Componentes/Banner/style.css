@@ -8,11 +8,12 @@
 
 .imagem-de-fundo {
     width: 50%;
-    background-image: url('../../img/food1.JPEG');
+    background-image: url('../../img/food2.JPEG');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 .texto-secaoBanner {
@@ -25,7 +26,7 @@
 }
 
 .texto-secaoBanner h2 {
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bold;
     color: #111111;
     font-family: 'Palanquin Dark', sans-serif;
@@ -37,7 +38,7 @@
 }
 
 .texto-secaoBanner p {
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .secao-icone {
@@ -49,6 +50,39 @@
     max-width: auto;
     height: 30px;
     margin-right: 20px;
+
+}
+
+.secao-link-cardapio {
+    border-radius: 20px;
+    width: 180px;
+    height: 75px;
+    font-weight: bold;
+    margin:30px 0;
+    background-color: #4CAF50;
+    
+}
+
+.cardapio-botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+   
+}
+
+.secao-link-cardapio:hover {
+    background-color: #4CAF50; 
+    
+}
+.secao-link-cardapio .cardapio-botao:hover {
+  color: white;
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -58,5 +92,19 @@
 
     .texto-secaoBanner {
         width: 100%;
+
+    }
+
+    .secao-banner {
+        height: 450px;
+    }
+
+    .texto-secaoBanner p {
+        font-size: 25px;
+    }
+
+    .texto-secaoBanner h2 {
+        font-size: 50px;
+        
     }
 }

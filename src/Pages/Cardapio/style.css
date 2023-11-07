@@ -1,5 +1,6 @@
+
 .secao-cards {
-    max-width: 1024px;
+    max-width: 1324px;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -7,16 +8,23 @@
     margin: 0 auto;
 }
 
-.secao-cards div h2 {
+.container-principal div h2 {
     font-family: "Poppins", sans-serif;
     color: #139b51;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center; 
     margin: 20px;   
+    letter-spacing: 5px;
+}
+
+.container-principal div h4 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    margin-bottom: 70px;
 }
 
 .container-cards {
-    background-color: #f3f3f3;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -27,6 +35,7 @@
 
 .container-principal {
     padding-top: 90px;
+    background-color: #f9f6ee;
 }
 
 @media (max-width: 600px) {

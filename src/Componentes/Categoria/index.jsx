@@ -6,7 +6,7 @@ import iconeMassa from '../../img/icone-massinha.png'
 
 const Categorias = ({handleFiltro, botaoClicado}) => {
     return (
-        <section className='secao-categorias'>
+        <section className='secao-categorias limitar-secao'>
             <div className='container-botoes'>
 
                 <button className={botaoClicado === "Pastel" ? "acenderBtn" : "apagarBtn"} onClick={() => handleFiltro("Pastel")}>

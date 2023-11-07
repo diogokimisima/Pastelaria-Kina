@@ -20,8 +20,8 @@ export default function Topo() {
                     </div>
                     <div className={ativar}>
                         <Link className="link-topo" to="/">HOME</Link>
-                        <Link className="link-topo" to="/Cardapio">CARDAPIO</Link>
-                        <Link className="link-topo" to="/Sobre">SOBRE</Link>
+                        <Link className="link-topo" to="/Cardapio">CARDÁPIO</Link>
+                        <Link className="link-topo" to="/Cardapio">HORÁRIOS</Link>
                     </div>
 
                 </nav>
