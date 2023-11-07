@@ -460,14 +460,14 @@ export const produtos = [
         descricao: "Pastel sem recheio",
         imagem: pastelVento
     },
-    {
-        id: 53,
-        nome: "Pastel Costela",
-        categoria: "Pastel",
-        preco: 20.00,
-        descricao: "Pastel recheado com costela desfiada e queijo",
-        imagem: carneSeca
-    }
+    // {
+    //     id: 53,
+    //     nome: "Pastel Costela",
+    //     categoria: "Pastel",
+    //     preco: 20.00,
+    //     descricao: "Pastel recheado com costela desfiada e queijo",
+    //     imagem: carneSeca
+    // }
 
 
 

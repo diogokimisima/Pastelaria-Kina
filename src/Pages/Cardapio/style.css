@@ -44,3 +44,18 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 750px){
+    .container-principal div h4{
+        font-size: 30px;
+    }
+}
+@media (max-width: 500px){
+    .container-principal div h4{
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+    .container-principal div h2{
+        font-size: 20px;
+    }
+}
