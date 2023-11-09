@@ -194,7 +194,7 @@ export const produtos = [
         id: 17,
         nome: "Palmito Catupiry",
         categoria: "Pastel",
-        preco: 15.00,
+        preco: 12.00,
         descricao: "Pastel recheado com palmito, catupiry e cebolinha",
         imagem: palmitoCatupiry,
     },
