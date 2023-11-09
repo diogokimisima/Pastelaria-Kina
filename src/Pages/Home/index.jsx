@@ -4,6 +4,7 @@ import Banner from '../../Componentes/Banner';
 import Horarios from '../../Componentes/Horarios';
 import Servicos from '../../Componentes/Servicos';
 import Rodape from '../../Componentes/Rodape';
+import { ScrollToTopButton } from '../../Service';
 
 const Home = () => {
 
@@ -14,6 +15,7 @@ const Home = () => {
       <Banner />
       <Servicos />
       <Horarios/>
+      <ScrollToTopButton/>
       <Rodape />
     </div>
   );

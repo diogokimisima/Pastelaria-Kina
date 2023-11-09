@@ -1,9 +1,10 @@
 import './style.css';
-import { useState, useEffect} from 'react';
+import { useState } from 'react';
 import Topo from '../../Componentes/Topo';
 import Cards from '../../Componentes/Cards';
 import Categoria from '../../Componentes/Categoria';
 import Rodape from '../../Componentes/Rodape';
+import { ScrollToTopButton } from '../../Service';
 
 
 import {
@@ -14,35 +15,11 @@ import {
 const Cardapio = () => {
   const [dadosFiltrados, setDadosFiltrados] = useState(produtosEntradas);
   const [botaoClicado, setBotaoClicado] = useState("Pastel");
-  const [showScrollButton, setShowScrollButton] = useState(false);
-
 
   const handleFiltro = (categoria) => {
     setDadosFiltrados(filtrarProdutos(categoria));
     setBotaoClicado(categoria);
   };
-
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth" // adiciona um efeito suave de rolagem
-    });
-  };
-
-  const handleScroll = () => {
-    const top = window.scrollY;
-    setShowScrollButton(top > 0); // Define o estado com base na posição de rolagem
-  };
-
-  useEffect(() => {
-    // Adiciona o event listener quando o componente é montado
-    window.addEventListener('scroll', handleScroll);
-
-    // Remove o event listener quando o componente é desmontado
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []); // O segundo argumento vazio garante que o event listener seja adicionado e removido corretamente
 
   return (
     <div>
@@ -71,11 +48,7 @@ const Cardapio = () => {
 
         </section>
       </main>
-      {showScrollButton && (
-        <div className='voltar-topo' onClick={scrollToTop}>
-          <i className='seta up'></i> 
-        </div>
-      )}
+      <ScrollToTopButton />
       <Rodape />
     </div>
   );
