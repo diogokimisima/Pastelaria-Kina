@@ -34,7 +34,7 @@ const Sobre = () => {
         </section>
 
         <section className="secao-card ">
-          <img src="assets/sobre-image.jpg" alt="pessoas comendo sorvete" />
+          <img src="assets/sobre-image.jpg" alt="foto" />
           <div className="texto-secao-sobre-nos">
             <h2> </h2>
             <p>
