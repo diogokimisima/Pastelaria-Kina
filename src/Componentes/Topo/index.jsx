@@ -18,7 +18,7 @@ export default function Topo() {
                         <div className='line2'></div>
                         <div className='line2'></div>
                     </div>
-                    <div className={ativar}>
+                    <div className={ativar} id="links">
                         <Link className="link-topo" to="/">HOME</Link>
                         <Link className="link-topo" to="/Cardapio">CARDÁPIO</Link>
                         <Link className="link-topo" to="/Sobre">SOBRE</Link>

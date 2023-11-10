@@ -12,35 +12,3 @@
   margin: 0 auto;
 }
 
-.voltar-topo {
-  z-index: 99;
-  position: fixed;
-  bottom: 20px;
-  right: 8px;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-color: #139b51;
-  cursor: pointer;
-  justify-content: center;
-  align-items: center;
-  animation: float;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.seta{
-  border: solid white;
-  border-width: 0 7px 7px 0;
-  padding: 5px;
-  display: inline-block;
-}
-
-.up {
-  transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-}

@@ -1,0 +1,77 @@
+h1 {
+    padding-top: 90px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #139b51;
+    font-size: 30px;
+}
+
+.background {
+    background-color: #f9f6ee;
+}
+
+.secao-card {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+
+.secao-card img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.texto-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+.texto-cards h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.texto-cards p {
+    font-size: 15px;
+    padding: 0 48px;
+    line-height: 26px;
+    margin-top: 10px;
+
+}
+
+@media(max-width: 1323px) {
+    .secao-main-sobre {
+        padding: 15px;
+    }
+}
+
+@media(max-width: 900px) {
+    .secao-card {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .secao-card img {
+        width: 100%;
+        max-height: 250px;
+    }
+
+    .texto-cards {
+        width: 100%;
+        height: 300px;
+    }
+
+    .secao-vinagrete {
+        flex-direction: column-reverse;
+    }
+}

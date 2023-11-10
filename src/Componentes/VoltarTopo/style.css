@@ -1,0 +1,28 @@
+.voltar-topo {
+    z-index: 99;
+    position: fixed;
+    bottom: 20px;
+    right: 8px;
+    width: 55px;
+    height: 55px;
+    border-radius: 20px;
+    background-color: #139b51;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .seta{
+    border: solid white;
+    border-width: 0 7px 7px 0;
+    padding: 6px;
+    display: inline-block;
+    margin: 0;
+  }
+  
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }

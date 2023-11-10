@@ -4,7 +4,7 @@ import Topo from '../../Componentes/Topo';
 import Cards from '../../Componentes/Cards';
 import Categoria from '../../Componentes/Categoria';
 import Rodape from '../../Componentes/Rodape';
-import { ScrollToTopButton } from '../../Service';
+import { ScrollToTopButton } from '../../Componentes/VoltarTopo';
 
 
 import {

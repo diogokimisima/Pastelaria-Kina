@@ -4,7 +4,7 @@ import Banner from '../../Componentes/Banner';
 import Horarios from '../../Componentes/Horarios';
 import Servicos from '../../Componentes/Servicos';
 import Rodape from '../../Componentes/Rodape';
-import { ScrollToTopButton } from '../../Service';
+import { ScrollToTopButton } from '../../Componentes/VoltarTopo';
 
 const Home = () => {
 

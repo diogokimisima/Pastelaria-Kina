@@ -16,3 +16,10 @@ footer{
 footer span {
     color: goldenrod;
 }
+
+@media (max-width:530px) {
+    footer {
+        font-size: 12px;
+    }
+    
+}
