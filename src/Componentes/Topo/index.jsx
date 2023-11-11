@@ -11,7 +11,7 @@ export default function Topo() {
     return (
         <header>
             <div className='limitar-secao navbar'>
-                <img src={Logo} alt="logo" />
+            <Link className="link-topo" to="/"><img src={Logo} alt="logo" /></Link>
                 <nav>
                     <div className="mobile-menu" onClick={navList}>
                         <div className='line1'></div>

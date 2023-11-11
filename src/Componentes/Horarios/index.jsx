@@ -1,10 +1,11 @@
 import './style.css';
 
-export default function Horarios(){
-    return (
-        <section className='secao-tabela limitar-secao' id='horarios'>
-            <h2>Locais e Horários</h2>
-        <table className='table1'>
+export default function Horarios() {
+  return (
+    <main className='secao-tabela limitar-secao'>
+      <h2>Locais e Horários</h2>
+      <section className='table1'>
+        <table>
           <caption>Food Truck</caption>
           <tr>
             <td className='dia-da-semana'>TERÇA a DOMINGO</td>
@@ -12,8 +13,10 @@ export default function Horarios(){
             <td className='horarios'>17:00 <span>-</span> 23:30</td>
           </tr>
         </table>
+      </section>
 
-        <table className='table2'>
+      <section className='table2'>
+        <table>
           <caption>Feiras Livre em Araçatuba</caption>
           <tr>
             <td className='dia-da-semana'>QUARTA</td>
@@ -36,8 +39,10 @@ export default function Horarios(){
             <td className='horarios'>07:00 <span>-</span> 12:00</td>
           </tr>
         </table>
+      </section>
 
-        <table className='table3'>
+      <section className='table3'>
+        <table >
           <caption>Feiras Livre em Birigui</caption>
           <tr>
             <td className='dia-da-semana'>TERÇA</td>
@@ -66,6 +71,8 @@ export default function Horarios(){
           </tr>
         </table>
       </section>
-    )
+
+    </main>
+  )
 
 }

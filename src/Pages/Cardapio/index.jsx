@@ -47,9 +47,10 @@ const Cardapio = () => {
           </div>
 
         </section>
-      </main>
+      
       <ScrollToTopButton />
       <Rodape />
+      </main>
     </div>
   );
 };

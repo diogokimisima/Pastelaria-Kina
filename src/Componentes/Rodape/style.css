@@ -1,6 +1,6 @@
 footer{
     position: relative;
-    padding: 20px 0;
+    padding: 20px;
     line-height: 34px;
     background-color: #f9f6ee;
     color: white;
@@ -9,7 +9,8 @@ footer{
     font-weight: 600;
     letter-spacing: 2px;
     border-top: 1px solid gainsboro;
-    padding-top: 20px;
+    
+    
     
 }
 

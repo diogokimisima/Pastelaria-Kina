@@ -4,12 +4,13 @@
     display: flex;
     flex-direction: column;
     border: 2px solid goldenrod;
-    border-radius: 4px;
+    border-radius: 8px;
     background-color: white;
 }
 
 .card figure {
     height: 250px;
+    
 }
 
 .card figure img {
@@ -27,12 +28,12 @@
     flex: 1 1 150px;
 }
 
-.container-informacoes div:nth-child(1) {
+/* .container-informacoes div:nth-child(1) {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
-  }
+  } */
 
   .container-informacoes div small {
     color: #139b51;
@@ -52,7 +53,7 @@
 
     .card figure {
       width: 100px;
-      height: 100px;
+      height: auto;
       
     }
 

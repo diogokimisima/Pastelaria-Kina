@@ -39,11 +39,14 @@
 
 .container-botoes button:hover {
     background-color: goldenrod;
+    
 }
 
 .acenderBtn {
     background-color: goldenrod;
   }
+
+
 
   @media (max-width: 1324px){
 
