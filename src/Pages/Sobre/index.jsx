@@ -5,6 +5,8 @@ import { ScrollToTopButton } from '../../Componentes/VoltarTopo';
 
 import foodTruck from '../../img/food2.JPEG';
 import vinagrete from '../../img/vinagrete.jpg';
+import senha from '../../img/senha-pedidos.jpg';
+import ambiente from '../../img/ambiente2.jpg';
 
 const Sobre = () => {
 
@@ -33,14 +35,22 @@ const Sobre = () => {
           <img src={vinagrete} alt="vinagrete" />
         </section>
 
-        <section className="secao-card ">
-          <img src="assets/sobre-image.jpg" alt="foto" />
-          <div className="texto-secao-sobre-nos">
-            <h2> </h2>
-            <p>
-          
+        <section className="secao-card secao-senha">
+          <img src={senha} alt="senha" />
+          <div className="texto-cards">
+            <h2> Senhas eletrônicas </h2>
+            <p>Implementamos um sistema de senha eletrônica para agilizar o atendimento. Ao fazer um pedido, os clientes recebem uma senha eletrônica que vibra quando o pedido estiver pronto. 
             </p>
           </div>
+        </section>
+
+        <section className="secao-card secao-ambiente">
+          <div className="texto-cards">
+            <h2> Ambiente </h2>
+            <p>Na Pastelaria Kina, o ambiente é toda ao ar livre, na Praça Paraíso é aquele lugar onde você pode relaxar, saborear a comida deliciosa e curtir o ambiente descontraído. Não é só sobre os pasteis incríveis, mas também sobre aproveitar o cenário ao redor.
+            </p>
+          </div>
+          <img src={ambiente} alt="ambiente" />
         </section>
 
       </main>

@@ -1,33 +1,40 @@
-  
-  
-
-  .secao-tabela h2  {
+  .secao-tabela h2 {
     color: #139b51;
     text-align: center;
     font-size: 30px;
     font-family: "Poppins", sans-serif;
   }
-  
-  
+
+.cards-horario {
+  display: flex;
+  flex-direction: row;
+}
   table {
     width: 100%;
-    padding: 20px 0;
+    padding: 10px;
     background-color: white;
   }
 
+  table img {
+    width: 13px;
+  }
 
   .table1,
   .table2,
   .table3 {
     box-sizing: border-box;
-    width: 100%;
-    height: 100%;
+    width: 400px;
+    height: 450px;
     background-color: white;
     border-radius: 20px;
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
+    
   }
-  
+
+
+ 
+
   th,
   td {
     font-size: 15px;
@@ -45,39 +52,44 @@
     margin-top: 20px;
     margin-bottom: 10px;
   }
-  
+
   .dia-da-semana {
     font-weight: bold;
   }
-  
+
   .horarios {
     color: rgb(97, 97, 97);
     text-align: right;
     font-style: italic;
     font-weight: 600;
   }
-  
+
+
   @media(max-width: 700px) {
     table caption {
       font-size: 25px;
     }
-  
+
     .dia-da-semana {
       text-align: left;
     }
-    
+
   }
-  
-  @media (max-width: 1023px) {
+
+  @media (max-width: 1324px) {
     .secao-tabela {
-      padding: 15px;
+      padding: 20px;
     }
+
+    .cards-horario {
+      display: flex;
+      flex-direction: column;
+    }
+  
   }
 
   @media (max-width: 700px) {
     table span {
-         display: none;
+      display: none;
     }
   }
-    
-  

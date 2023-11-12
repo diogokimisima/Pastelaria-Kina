@@ -78,4 +78,18 @@ h1 {
     .secao-vinagrete {
         flex-direction: column-reverse;
     }
+
+    .secao-ambiente {
+        flex-direction: column-reverse;
+    }
+}
+
+@media(max-width: 550px) {
+    .texto-cards h2{
+        font-size: 25px;
+    }
+
+    .texto-cards p{
+        font-size: 12px;
+    }
 }
