@@ -8,6 +8,7 @@
 .cards-horario {
   display: flex;
   flex-direction: row;
+  
 }
   table {
     width: 100%;
@@ -22,24 +23,24 @@
   .table1,
   .table2,
   .table3 {
+    border: solid 2px goldenrod;
     box-sizing: border-box;
     width: 400px;
-    height: 450px;
+    height: auto;
     background-color: white;
     border-radius: 20px;
     padding: 20px;
-    margin: 20px auto;
+    margin: 10px auto;
     
   }
-
-
- 
 
   th,
   td {
     font-size: 15px;
     padding: 8px;
     font-family: "Palanquin Dark", sans-serif;
+    max-height: 50px;
+    min-height: 50px;
   }
 
   caption {
@@ -78,7 +79,8 @@
 
   @media (max-width: 1324px) {
     .secao-tabela {
-      padding: 20px;
+    padding: 0 auto;
+
     }
 
     .cards-horario {

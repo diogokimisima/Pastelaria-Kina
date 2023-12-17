@@ -10,9 +10,39 @@ export default function Horarios() {
         <table>
           <caption>Food Truck</caption>
           <tr>
-            <td className='dia-da-semana'>TERÇA a DOMINGO</td>
-            <img src={local} alt="local"/> <td className='praca-paraiso'>Praça Paraíso</td>
+            <td className='dia-da-semana'>SEGUNDA</td>
+            <td></td>
+            <td className='horarios'>FECHADO</td>
+          </tr>
+          <tr>
+            <td className='dia-da-semana'>TERÇA</td>
+            <td className='praca-paraiso'> <img src={local} alt="local"/>Praça Paraíso</td>
             <td className='horarios'>17:00 <span>-</span> 23:30</td>
+          </tr>
+          <tr>
+            <td className='dia-da-semana'>QUARTA</td>
+             <td className='praca-paraiso'><img src={local} alt="local"/>Praça Paraíso</td>
+            <td className='horarios'>17:00 <span>-</span> 23:30</td>
+          </tr>
+          <tr>
+            <td className='dia-da-semana'>QUINTA</td>
+            <td className='praca-paraiso'><img src={local} alt="local"/>Praça Paraíso</td>
+            <td className='horarios'>17:00 <span>-</span> 23:30</td>
+          </tr>
+          <tr>
+            <td className='dia-da-semana'>SEXTA</td>
+            <td className='praca-paraiso'><img src={local} alt="local"/>Praça Paraíso</td>
+            <td className='horarios'>17:00 <span>-</span> 23:30</td>
+          </tr>
+          <tr>
+            <td className='dia-da-semana'>SÁBADO</td>
+            <td className='praca-paraiso'><img src={local} alt="local"/>Praça Paraíso</td>
+            <td className='horarios'>17:00 <span>-</span> 23:30</td>
+          </tr>
+          <tr>
+            <td className='dia-da-semana'>DOMINGO</td>
+            <td className='praca-paraiso'><img src={local} alt="local"/>Praça Paraíso</td>
+            <td className='horarios'>07:00 <span>-</span> 23:30</td>
           </tr>
         </table>
       </section>
@@ -21,8 +51,18 @@ export default function Horarios() {
         <table>
           <caption>Feiras Livre em Araçatuba</caption>
           <tr>
+            <td className='dia-da-semana'>SEGUNDA</td>
+            <td></td>
+            <td className='horarios'>FECHADO</td>
+          </tr>
+          <tr>
+            <td className='dia-da-semana'>TERÇA</td>
+            <td></td>
+            <td className='horarios'>FECHADO</td>
+          </tr>
+          <tr>
             <td className='dia-da-semana'>QUARTA</td>
-            <td><img src={local} alt="local"/> R. Tabajaras, 1000 - Jardim Sumaré</td>
+            <td className='endereco'><img src={local} alt="local"/> R. Tabajaras, 1000 - Jardim Sumaré</td>
             <td className='horarios'>07:00 <span>-</span> 13:00</td>
           </tr>
           <tr>
@@ -37,8 +77,8 @@ export default function Horarios() {
           </tr>
           <tr>
             <td className='dia-da-semana'>SÁBADO</td>
-            <td><img src={local} alt="local"/> Praça Bairro Paraíso</td>
-            <td className='horarios'>07:00 <span>-</span> 13:00</td>
+            <td><img src={local} alt="local"/> Praça Paraíso</td>
+            <td className='horarios'>07:00 <span>-</span> 23:00</td>
           </tr>
         </table>
       </section>
@@ -47,28 +87,33 @@ export default function Horarios() {
         <table >
           <caption>Feiras Livre em Birigui</caption>
           <tr>
+            <td className='dia-da-semana'>SEGUNDA</td>
+            <td></td>
+            <td className='horarios'>FECHADO</td>
+          </tr>
+          <tr>
             <td className='dia-da-semana'>TERÇA</td>
-            <td><img src={local} alt="local"/> R. Edgar Ajax dos Réis, 999 - Jardim Toselar</td>
-            <td className='horarios'>16:00 <span>-</span> 22:00</td>
+            <td><img src={local} alt="local"/>R. Edgar Ajax dos Réis, 999 - Jardim Toselar</td>
+            <td className='horarios'>15:00 <span>-</span> 22:00</td>
           </tr>
           <tr>
             <td className='dia-da-semana'>QUARTA</td>
-            <td><img src={local} alt="local"/> R. José Moimas, 2200 - Silvares</td>
-            <td className='horarios'>16:00 <span>-</span> 22:00</td>
+            <td><img src={local} alt="local"/>R. José Moimas, 2200 - Silvares</td>
+            <td className='horarios'>15:00 <span>-</span> 22:00</td>
           </tr>
           <tr>
             <td className='dia-da-semana'>QUINTA</td>
-            <td><img src={local} alt="local"/> R. Anchieta, 341 - Praça Bairro Alto</td>
-            <td className='horarios'>16:00 <span>-</span> 22:00</td>
+            <td><img src={local} alt="local"/>R. Anchieta, 341 - Praça Bairro Alto</td>
+            <td className='horarios'>15:00 <span>-</span> 22:00</td>
           </tr>
           <tr>
             <td className='dia-da-semana'>SEXTA</td>
-            <td><img src={local} alt="local"/> R. Wagih Rahal, 100 - Rodoviária Nova</td>
-            <td className='horarios'>16:00 <span>-</span> 22:00</td>
+            <td><img src={local} alt="local"/>R. Wagih Rahal, 100 - Rodoviária Nova</td>
+            <td className='horarios'>15:00 <span>-</span> 22:00</td>
           </tr>
           <tr>
             <td className='dia-da-semana'>SÁBADO</td>
-            <td><img src={local} alt="local"/> Av. das Rosas - Praça da Bíblia- Thereza Maria Barbieri</td>
+            <td><img src={local} alt="local"/>Av. das Rosas - Praça da Bíblia-Thereza Maria Barbieri</td>
             <td className='horarios'>08:00 <span>-</span> 13:00</td>
           </tr>
         </table>
