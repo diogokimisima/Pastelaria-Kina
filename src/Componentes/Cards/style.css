@@ -28,10 +28,6 @@
     flex: 1 1 150px;
 }
 
-.container-informacoes span {
-  color: rgb(189, 4, 4);
-}
-
 /* .container-informacoes div:nth-child(1) {
     flex-grow: 1;
     display: flex;
