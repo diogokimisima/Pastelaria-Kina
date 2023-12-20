@@ -65,7 +65,7 @@ const Sobre = () => {
           initial="hidden"
           animate={inView2 ? "visible" : "hidden"}
           variants={variants}
-          transition={{ ...transition, delay: 0.4 }}
+          transition={{ ...transition, delay: 0.2 }}
           ref={ref2}
         >
           <div className="texto-cards">
@@ -83,7 +83,7 @@ const Sobre = () => {
           initial="hidden"
           animate={inView3 ? "visible" : "hidden"}
           variants={variants}
-          transition={{ ...transition, delay: 0.6 }}
+          transition={{ ...transition, delay: 0.4}}
           ref={ref3}
         >
           <img src={senha} alt="senha" />
@@ -100,7 +100,7 @@ const Sobre = () => {
           initial="hidden"
           animate={inView4 ? "visible" : "hidden"}
           variants={variants}
-          transition={{ ...transition, delay: 0.4 }}
+          transition={{ ...transition, delay: 0.2 }}
           ref={ref4}
         >
           <div className="texto-cards">

@@ -17,10 +17,10 @@
 .cards img {
     width: 180px;
     height: auto;
-    border: solid 4px goldenrod;
+    /* border: solid 2.5px goldenrod; */
     padding: 20px;
     border-radius: 30px;
-    background-color: white;
+    /* background-color: white; */
     
 }
 
@@ -46,7 +46,6 @@
     .cards img {
         width: 130px;
         height: auto;
-        border: solid 4px goldenrod;
         padding: 20px;
     }
 
