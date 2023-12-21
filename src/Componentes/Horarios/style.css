@@ -5,6 +5,10 @@
     font-family: "Poppins", sans-serif;
   }
 
+  .secao-tabela {
+    margin: 0 auto;
+  }
+
   .cards-horario {
     display: flex;
     flex-direction: row;
@@ -26,9 +30,9 @@
   .table3 {
     border: 0;
     border-radius: 12px;
-    box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.086);
+    box-shadow: 0px 5px 10px #333;
     box-sizing: border-box;
-    width: 400px;
+    max-width: 400px;
     height: auto;
     background-color: white;
     border-radius: 20px;
@@ -66,8 +70,11 @@
     text-align: right;
     font-style: italic;
     font-weight: 600;
+    width: 110px;
   }
 
+  
+ 
 
   @media(max-width: 700px) {
     table caption {
@@ -78,12 +85,20 @@
       text-align: left;
     }
 
+    .endereco {
+      font-size: 13px;
+    }
+
+    .horarios {
+      font-size: 13px;
+    }
+  
+    
   }
 
   @media (max-width: 1324px) {
     .secao-tabela {
-      padding: 0 auto;
-
+      padding: 13px;
     }
 
     .cards-horario {
@@ -91,10 +106,4 @@
       flex-direction: column;
     }
 
-  }
-
-  @media (max-width: 700px) {
-    table span {
-      display: none;
-    }
   }

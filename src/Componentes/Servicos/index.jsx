@@ -14,7 +14,7 @@ export default function Servicos() {
             </div>
             <div className='cards'>
                 <img src={salgados} alt="salgados" />
-                <p>Salgados pelo melhor preço</p>
+                <p>O Melhor preço</p>
             </div>
             <div className='cards'>
                 <img src={velocidade} alt="velocidade" />

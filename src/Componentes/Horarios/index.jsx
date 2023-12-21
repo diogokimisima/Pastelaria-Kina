@@ -16,32 +16,32 @@ export default function Horarios() {
           </tr>
           <tr>
             <td className='dia-da-semana'>TERÇA</td>
-            <td className='praca-paraiso'> <img src={local} alt="local"/>Praça Paraíso</td>
+            <td className='endereco'> <img src={local} alt="local"/> Praça Paraíso</td>
             <td className='horarios'>17:00 <span>-</span> 23:30</td>
           </tr>
           <tr>
             <td className='dia-da-semana'>QUARTA</td>
-             <td className='praca-paraiso'><img src={local} alt="local"/>Praça Paraíso</td>
+             <td className='endereco'><img src={local} alt="local"/> Praça Paraíso</td>
             <td className='horarios'>17:00 <span>-</span> 23:30</td>
           </tr>
           <tr>
             <td className='dia-da-semana'>QUINTA</td>
-            <td className='praca-paraiso'><img src={local} alt="local"/>Praça Paraíso</td>
+            <td className='endereco'><img src={local} alt="local"/> Praça Paraíso</td>
             <td className='horarios'>17:00 <span>-</span> 23:30</td>
           </tr>
           <tr>
             <td className='dia-da-semana'>SEXTA</td>
-            <td className='praca-paraiso'><img src={local} alt="local"/>Praça Paraíso</td>
+            <td className='endereco'><img src={local} alt="local"/> Praça Paraíso</td>
             <td className='horarios'>17:00 <span>-</span> 23:30</td>
           </tr>
           <tr>
             <td className='dia-da-semana'>SÁBADO</td>
-            <td className='praca-paraiso'><img src={local} alt="local"/>Praça Paraíso</td>
+            <td className='endereco'><img src={local} alt="local"/> Praça Paraíso</td>
             <td className='horarios'>17:00 <span>-</span> 23:30</td>
           </tr>
           <tr>
             <td className='dia-da-semana'>DOMINGO</td>
-            <td className='praca-paraiso'><img src={local} alt="local"/>Praça Paraíso</td>
+            <td className='endereco'><img src={local} alt="local"/> Praça Paraíso</td>
             <td className='horarios'>07:00 <span>-</span> 23:30</td>
           </tr>
         </table>
@@ -62,22 +62,22 @@ export default function Horarios() {
           </tr>
           <tr>
             <td className='dia-da-semana'>QUARTA</td>
-            <td className='endereco'><img src={local} alt="local"/> R. Tabajaras, 1000 - Jardim Sumaré</td>
+            <td className='endereco'><img src={local} alt="local"/> R. Tabajaras, 1000</td>
             <td className='horarios'>07:00 <span>-</span> 13:00</td>
           </tr>
           <tr>
             <td className='dia-da-semana'>QUINTA</td>
-            <td><img src={local} alt="local"/> Praça São João</td>
+            <td className='endereco'><img src={local} alt="local"/> Praça São João</td>
             <td className='horarios'>07:00 <span>-</span> 13:00</td>
           </tr>
           <tr>
             <td className='dia-da-semana'>SEXTA</td>
-            <td><img src={local} alt="local"/> R. Marcondes Salgado, 280 - Santana</td>
+            <td className='endereco'><img src={local} alt="local"/> R. Marcondes Salgado, 280</td>
             <td className='horarios'>07:00 <span>-</span> 13:00</td>
           </tr>
           <tr>
             <td className='dia-da-semana'>SÁBADO</td>
-            <td><img src={local} alt="local"/> Praça Paraíso</td>
+            <td className='endereco'><img src={local} alt="local"/> Praça Paraíso</td>
             <td className='horarios'>07:00 <span>-</span> 23:00</td>
           </tr>
         </table>
@@ -93,27 +93,27 @@ export default function Horarios() {
           </tr>
           <tr>
             <td className='dia-da-semana'>TERÇA</td>
-            <td><img src={local} alt="local"/>R. Edgar Ajax dos Réis, 999 - Jardim Toselar</td>
+            <td className='endereco'><img src={local} alt="local"/>R. Edgar Ajax dos Réis, 999</td>
             <td className='horarios'>15:00 <span>-</span> 22:00</td>
           </tr>
           <tr>
             <td className='dia-da-semana'>QUARTA</td>
-            <td><img src={local} alt="local"/>R. José Moimas, 2200 - Silvares</td>
+            <td className='endereco'><img src={local} alt="local"/>R. José Moimas, 2200</td>
             <td className='horarios'>15:00 <span>-</span> 22:00</td>
           </tr>
           <tr>
             <td className='dia-da-semana'>QUINTA</td>
-            <td><img src={local} alt="local"/>R. Anchieta, 341 - Praça Bairro Alto</td>
+            <td className='endereco'><img src={local} alt="local"/>Praça Bairro Alto</td>
             <td className='horarios'>15:00 <span>-</span> 22:00</td>
           </tr>
           <tr>
             <td className='dia-da-semana'>SEXTA</td>
-            <td><img src={local} alt="local"/>R. Wagih Rahal, 100 - Rodoviária Nova</td>
+            <td className='endereco'><img src={local} alt="local"/>R. Wagih Rahal, 100</td>
             <td className='horarios'>15:00 <span>-</span> 22:00</td>
           </tr>
           <tr>
             <td className='dia-da-semana'>SÁBADO</td>
-            <td><img src={local} alt="local"/>Av. das Rosas - Praça da Bíblia-Thereza Maria Barbieri</td>
+            <td className='endereco'><img src={local} alt="local"/>Praça Bíblia-Thereza</td>
             <td className='horarios'>08:00 <span>-</span> 13:00</td>
           </tr>
         </table>
