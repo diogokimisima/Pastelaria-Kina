@@ -38,7 +38,7 @@
 
 .container-botoes button:hover {
     background-color: goldenrod;
-    
+    transition: 0.5s ease;
 }
 
 .apagarBtn {
