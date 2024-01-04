@@ -1,5 +1,6 @@
 .secao-servicos {
-    margin: 50px auto;
+    margin: 120px auto;
+    margin-bottom: 35px;
 }
 .secao-servicos h2{
     text-align: center;
@@ -39,6 +40,8 @@
 @media (max-width: 1324px) {
     .secao-servicos {
       padding: 15px;
+      margin: 35px auto;
+      margin-bottom: 0px;
     }
   }
 

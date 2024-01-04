@@ -155,7 +155,7 @@ export const produtos = [
         nome: "Frango Catupiry",
         categoria: "Pastel",
         preco: 13.00,
-        descrica3: "Pastel recheado com frango desfiado e catupiry",
+        descricao: "Pastel recheado com frango desfiado e catupiry",
         imagem: frango,
     },
     {
@@ -435,14 +435,14 @@ export const produtos = [
         id: 49,
         nome: "Brahma lata",
         categoria: "Bebidas",
-        preco: 7.00,
+        preco: 6.00,
         imagem: brahma,
     }, 
     {
         id: 50,
         nome: "Skol Lata",
         categoria: "Bebidas",
-        preco: 7.00,
+        preco: 6.00,
         imagem: skol,
     }, 
     {

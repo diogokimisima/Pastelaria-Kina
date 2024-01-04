@@ -1,6 +1,6 @@
 .secao-banner {
     height: 80vh;
-    padding-top: 90px;
+    padding-top: 70px;
     display: flex;
     position: relative;
 
@@ -74,9 +74,7 @@
     color: white;
 }
 
-.card-icone {
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.086);
-}
+
 
 
 @media screen and (max-width: 768px) {

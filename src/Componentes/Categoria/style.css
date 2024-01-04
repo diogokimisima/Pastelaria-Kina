@@ -28,7 +28,6 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background-color: white;
 }
 
 .container-botoes img{
@@ -40,6 +39,10 @@
 .container-botoes button:hover {
     background-color: goldenrod;
     
+}
+
+.apagarBtn {
+    background-color: white;
 }
 
 .acenderBtn {

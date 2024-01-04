@@ -14,8 +14,8 @@ export default function Banner() {
                 <Link className="cardapio-botao" to="/Cardapio">VER CARDÁPIO</Link>
                 </div>
                 <div className="secao-icone">
-                    <a href="https://www.instagram.com/pastelariakina" target="blank"><img className="icone" src={iconeInsta} alt="insta" /></a>
-                    <a href="https://www.facebook.com/pastelariakina" target="blank"><img className="icone" src={iconeFace} alt="face" /></a>
+                    <a className="card-icone" href="https://www.instagram.com/pastelariakina" target="blank"><img className="icone" src={iconeInsta} alt="insta" /></a>
+                    <a className="card-icone" href="https://www.facebook.com/pastelariakina" target="blank"><img className="icone" src={iconeFace} alt="face" /></a>
                 </div>
                 
             </div>
