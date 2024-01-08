@@ -50,7 +50,6 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     <td align="center">
       <a href="#">
         <img src="https://avatars.githubusercontent.com/u/132942700?v=4" width="160px;" alt="Foto do Diogo kimisima"/><br>
-       
         <sub>
           <b>Diogo Kimisima</b>
         </sub>
