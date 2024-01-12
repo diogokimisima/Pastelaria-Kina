@@ -37,12 +37,12 @@ export default function Horarios() {
           <tr>
             <td className='dia-da-semana'>SÁBADO</td>
             <td className='endereco'><img src={local} alt="local"/> Praça Paraíso</td>
-            <td className='horarios'>17:00 <span>-</span> 23:30</td>
+            <td className='horarios'>07:00 <span>-</span> 23:30</td>
           </tr>
           <tr>
             <td className='dia-da-semana'>DOMINGO</td>
             <td className='endereco'><img src={local} alt="local"/> Praça Paraíso</td>
-            <td className='horarios'>07:00 <span>-</span> 23:30</td>
+            <td className='horarios'>17:00 <span>-</span> 23:30</td>
           </tr>
         </table>
       </section>

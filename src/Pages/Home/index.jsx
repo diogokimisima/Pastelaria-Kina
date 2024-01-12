@@ -54,7 +54,7 @@ const Home = () => {
         initial="hidden"
         animate={inView3 ? "visible" : "hidden"}
         variants={variants}
-        transition={{ ...transition, delay: 0.5 }}
+        transition={{ ...transition, delay: 0.4 }}
         ref={ref3}
       >
         <Horarios />
