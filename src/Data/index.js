@@ -131,7 +131,7 @@ export const produtos = [
         nome: "Carne com Queijo",
         categoria: "Pastel",
         preco: 13.00,
-        descricao: "Pastel com recheio de carne moiada e queijo",
+        descricao: "Pastel recheado com carne moiada e queijo",
         imagem: carneQueijo,
     },
     {
@@ -179,7 +179,7 @@ export const produtos = [
         nome: "Calabresa",
         categoria: "Pastel",
         preco: 13.00,
-        descricao: "Pastel com recheio de calabresa, queijo e uma rodela de tomate",
+        descricao: "Pastel recheado com calabresa, queijo e uma rodela de tomate",
         imagem: calabresa,
     },
     {
@@ -187,7 +187,7 @@ export const produtos = [
         nome: "Palmito",
         categoria: "Pastel",
         preco: 13.00,
-        descricao: "Pastel recheado com palmito e cebolinha",
+        descricao: "Pastel recheado com palmito",
         imagem: palmito,
     },
     {
@@ -195,7 +195,7 @@ export const produtos = [
         nome: "Palmito Catupiry",
         categoria: "Pastel",
         preco: 13.00,
-        descricao: "Pastel recheado com palmito, catupiry e cebolinha",
+        descricao: "Pastel recheado com palmito e catupiry",
         imagem: palmitoCatupiry,
     },
     {
@@ -203,7 +203,7 @@ export const produtos = [
         nome: "Banana",
         categoria: "Pastel",
         preco: 13.00,
-        descricao: "Pastel com recheio de banana com açucar e canela ao redor do pastel",
+        descricao: "Pastel recheado de banana com açucar e canela ao redor do pastel",
         imagem: banana,
     },
     {
@@ -227,7 +227,7 @@ export const produtos = [
         nome: "Brócolis",
         categoria: "Pastel",
         preco: 16.00,
-        descricao: "Pastel com recheio de brócolis, queijo e catupiry",
+        descricao: "Pastel recheado com brócolis, queijo e catupiry",
         imagem: brocolis,
     },
     {
@@ -235,7 +235,7 @@ export const produtos = [
         nome: "Lombo Canadense",
         categoria: "Pastel",
         preco: 16.00,
-        descricao: "Pastel recheado com lombo canadense",
+        descricao: "Pastel recheado com lombo canadense, queijo, catupiry e uma rodela de tomate",
         imagem: lombo,
     },
     {
@@ -243,7 +243,7 @@ export const produtos = [
         nome: "4 Queijo",
         categoria: "Pastel",
         preco: 16.00,
-        descricao: "Pastel recheado 4 tipos de queijos(mussarela, queijo prato, provolone e catupiry)",
+        descricao: "Pastel recheado com 4 tipos de queijos(mussarela, queijo prato, provolone e catupiry)",
         imagem: quatroQueijo,
     },
     {
@@ -251,7 +251,7 @@ export const produtos = [
         nome: "Atum catupiry",
         categoria: "Pastel",
         preco: 16.00,
-        descricao: "Pastel com recheio de atum desfiado e catupiry",
+        descricao: "Pastel recheado com atum desfiado e catupiry",
         imagem: atum,
     },
     {
@@ -259,7 +259,7 @@ export const produtos = [
         nome: "Bacalhau",
         categoria: "Pastel",
         preco: 16.00,
-        descricao: "Pastel com recheio de bacalhau temperado e uma azeitona preta",
+        descricao: "Pastel recheado com bacalhau e uma azeitona preta",
         imagem: bacalhau,
     },
 
@@ -278,7 +278,7 @@ export const produtos = [
         nome: "Especial",
         categoria: "Pastel",
         preco: 22.00,
-        descricao: "Pastel recheado com carne moiada, queijo, presunto, ovo cozido e uma azeitona",
+        descricao: "Pastel recheado com carne moida, queijo, presunto, ovo cozido e uma azeitona",
         imagem: especial,
     },
     {
