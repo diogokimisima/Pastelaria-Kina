@@ -4,7 +4,7 @@ import './style.css';
 import Topo from '../../Componentes/Topo';
 import Rodape from '../../Componentes/Rodape';
 import { ScrollToTopButton } from '../../Componentes/VoltarTopo';
-import foodTruck from '../../img/food2.JPEG';
+import foodTrucks from '../../img/foodtrucks.jpg';
 import vinagrete from '../../img/vinagrete.jpg';
 import senha from '../../img/senha-pedidos.jpg';
 import ambiente from '../../img/ambiente2.jpg';
@@ -50,7 +50,7 @@ const Sobre = () => {
           transition={transition}
           ref={ref1}
         >
-          <img src={foodTruck} alt="Food Truck" />
+          <img src={foodTrucks} alt="Food Truck" />
           <div className="texto-cards">
             <h2>Nossas Foods trucks</h2>
             <p>
