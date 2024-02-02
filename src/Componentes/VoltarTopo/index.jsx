@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './style.css';
 
 export const ScrollToTopButton = () => {
-  const [showScrollButton, setShowScrollButton] = useState(false);
+  const [voltarTopo, setVoltarTopo] = useState(false);
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -13,7 +13,7 @@ export const ScrollToTopButton = () => {
 
   const handleScroll = () => {
     const top = window.scrollY;
-    setShowScrollButton(top > 0);
+    setVoltarTopo(top > 0);
   };
 
   useEffect(() => {
@@ -25,7 +25,7 @@ export const ScrollToTopButton = () => {
   }, []);
 
   return (
-    showScrollButton && (
+    voltarTopo && (
       <div className="voltar-topo" onClick={scrollToTop}>
         <i className="seta up"></i>
       </div>

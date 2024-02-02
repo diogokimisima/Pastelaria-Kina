@@ -36,7 +36,7 @@ const Sobre = () => {
   });
 
   return (
-    <div className='background'>
+    <div className='secao-principal-sobre'>
       <Topo />
       <main className='secao-main-sobre limitar-secao'>
         <h1>Sobre nós</h1>
