@@ -80,6 +80,11 @@ export default function Horarios() {
             <td className='endereco'><img src={local} alt="local"/> Praça Paraíso</td>
             <td className='horarios'>07:00 <span>-</span> 12:30</td>
           </tr>
+          <tr>
+            <td className='dia-da-semana'>DOMINGO</td>
+            <td></td>
+            <td className='horarios'>FECHADO</td>
+          </tr>
         </table>
       </section>
 
@@ -114,7 +119,12 @@ export default function Horarios() {
           <tr>
             <td className='dia-da-semana'>SÁBADO</td>
             <td className='endereco'><img src={local} alt="local"/>Praça Bíblia-Thereza</td>
-            <td className='horarios'>7:00 <span>-</span> 13:00</td>
+            <td className='horarios'>07:00 <span>-</span> 13:00</td>
+          </tr>
+          <tr>
+            <td className='dia-da-semana'>DOMINGO</td>
+            <td></td>
+            <td className='horarios'>FECHADO</td>
           </tr>
         </table>
       </section>
