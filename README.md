@@ -2,6 +2,8 @@
 
 > 🔎 Projeto de com página Home, Cardápio e Sobre <br>
 🗔 Confira a aplicação: https://pastelaria-kina.vercel.app <br>
+  <img src="src/img/gif.gif" alt="Video Projeto" width="100%" heigth="500px"/>
+  
 ## :page_facing_up: Explicação
 
 Esse site da pastelaria foi meu primeiro projeto freelancer criado utilizado ReactJS, é um site moderno e responsivo, projetado para oferecer aos usuários uma experiência agradável ao explorar o menu e descobrir mais sobre o restaurante. Utilizamos React JS para criar uma interface dinâmica e eficiente, permitindo uma navegação suave e interativa.
@@ -14,13 +16,13 @@ O site tem no total 3 página, sendo ela
 
 - **Página Home:** A página principal fala mais sobre os serviços do estabelecimento, e tamb sobre os locais e horários das vendas.
 - **Página Cardápio:** A página cardápio é divido por tópicos com interações dinâmicas, os Pasteis, Salgados, Bebidas e Massas .
-- **Página Sobre:** A página sobre fala um pouco sobre o lugar, das inovações que eles vem trazendo para melhorar cada dias a expêriencia do cleinte. 
+- **Página Sobre:** A página sobre fala um pouco sobre o lugar, das inovações que eles vem trazendo para melhorar cada dias a expêriencia do cliente. 
 
 
 ## 🎯 Etapas ##
 
 :heavy_check_mark: Desenvolver a interaface com as tecnologias HTML e CSS. <br>
-:heavy_check_mark: Usuar o framework ReactJS<br>
+:heavy_check_mark: Usar o framework ReactJS<br>
 :heavy_check_mark: Adicionar a responsividade à página. <br>
 :heavy_check_mark: criar os locais e horarios de funcionamento do local <br>
 :heavy_check_mark: criar um menu nav bar coms 3 links (HOME, CARDÁPIO, SOBRE) para usuários de telas menores <br>
