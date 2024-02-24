@@ -2,7 +2,7 @@
 
 > 🔎 Projeto de com página Home, Cardápio e Sobre <br>
 🗔 Confira a aplicação: https://pastelaria-kina.vercel.app <br>
-  <img src="src/img/gif.gif" alt="Video Projeto" width="100%">
+  <img src="src/img/gif.gif" alt="Video Projeto" width="100%"/>
   
 ## :page_facing_up: Explicação
 
