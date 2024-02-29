@@ -73,7 +73,7 @@ export const produtos = [
         nome: "Bolinha de queijo",
         categoria: "Salgados",
         preco: 3.00,
-        descricao: "Bolinho com massa de mandioca recheado com queijo",
+        descricao: "Bolinho com massa de mandioca recheado com mussarela",
         imagem: bolQueijo,
     },
     {
@@ -81,7 +81,7 @@ export const produtos = [
         nome: "Coxinha de carne",
         categoria: "Salgados",
         preco: 3.00,
-        descricao: "Coxinha com massa de man7ioca recheado com carne",
+        descricao: "Coxinha com massa de mandioca recheado com carne",
         imagem: coxCarne,
     },
 
@@ -90,7 +90,7 @@ export const produtos = [
         nome: "Bolinho de bacalhau",
         categoria: "Salgados",
         preco: 7.00,
-        descricao: "Bolinho com massa de batata recheado com bacalhau",
+        descricao: "Bolinho de bacalhau com batata",
         imagem: bolBacalhau,
     },
     {
@@ -98,7 +98,7 @@ export const produtos = [
         nome: "Kibe de queijo",
         categoria: "Salgados",
         preco: 7.00,
-        descricao: "Massa de kibe recheado com queijo",
+        descricao: "Massa de kibe recheado com mussarela",
         imagem: kibeQueijo,
     },
     {
@@ -131,7 +131,7 @@ export const produtos = [
         nome: "Carne com Queijo",
         categoria: "Pastel",
         preco: 13.00,
-        descricao: "Pastel recheado com carne moiada e queijo",
+        descricao: "Pastel recheado com carne moída e mussarela",
         imagem: carneQueijo,
     },
     {
@@ -139,15 +139,15 @@ export const produtos = [
         nome: "Carne",
         categoria: "Pastel",
         preco: 13.00,
-        descricao: "Pastel recheado com carne moida",
+        descricao: "Pastel recheado com carne moída",
         imagem: carne,
     },
     {
         id: 11,
         nome: "Queijo",
         categoria: "Pastel",
-        preco: 12.00,
-        descricao: "Pastel recheado com queijo",
+        preco: 13.00,
+        descricao: "Pastel recheado com queijo mussarela",
         imagem: queijo,
     },
     {
@@ -163,7 +163,7 @@ export const produtos = [
         nome: "Pizza",
         categoria: "Pastel",
         preco: 13.00,
-        descricao: "Pastel recheado com queijo, oregano e uma rodela de tomate",
+        descricao: "Pastel recheado com mussarela, orégano e uma rodela de tomate",
         imagem: pizza,
     },
     {
@@ -171,7 +171,7 @@ export const produtos = [
         nome: "Bauru",
         categoria: "Pastel",
         preco: 13.00,
-        descricao: "Pastel recheado com presunto, queijo e tomate",
+        descricao: "Pastel recheado com presunto, mussarela e tomate",
         imagem: bauru,
     },
     {
@@ -179,7 +179,7 @@ export const produtos = [
         nome: "Calabresa",
         categoria: "Pastel",
         preco: 13.00,
-        descricao: "Pastel recheado com calabresa, queijo e uma rodela de tomate",
+        descricao: "Pastel recheado com calabresa, mussarela e uma rodela de tomate",
         imagem: calabresa,
     },
     {
@@ -203,7 +203,7 @@ export const produtos = [
         nome: "Banana",
         categoria: "Pastel",
         preco: 13.00,
-        descricao: "Pastel recheado de banana com açucar e canela ao redor do pastel",
+        descricao: "Pastel recheado de banana com açúcar e canela ao redor",
         imagem: banana,
     },
     {
@@ -219,7 +219,7 @@ export const produtos = [
         nome: "Romeu e julieta",
         categoria: "Pastel",
         preco: 13.00,
-        descricao: "Pastel recheado com goiabada e queijo ",
+        descricao: "Pastel recheado com goiabada e mussarela ",
         imagem: romeu,
     },
     {
@@ -227,7 +227,7 @@ export const produtos = [
         nome: "Brócolis",
         categoria: "Pastel",
         preco: 16.00,
-        descricao: "Pastel recheado com brócolis, queijo e catupiry",
+        descricao: "Pastel recheado com brócolis, mussarela e catupiry",
         imagem: brocolis,
     },
     {
@@ -235,7 +235,7 @@ export const produtos = [
         nome: "Lombo Canadense",
         categoria: "Pastel",
         preco: 16.00,
-        descricao: "Pastel recheado com lombo canadense, queijo, catupiry e uma rodela de tomate",
+        descricao: "Pastel recheado com lombo canadense, mussarela, catupiry e uma rodela de tomate",
         imagem: lombo,
     },
     {
@@ -278,7 +278,7 @@ export const produtos = [
         nome: "Especial",
         categoria: "Pastel",
         preco: 22.00,
-        descricao: "Pastel recheado com carne moida, queijo, presunto, ovo cozido e uma azeitona",
+        descricao: "Pastel recheado com carne moída, mussarela, presunto, ovo cozido e uma azeitona",
         imagem: especial,
     },
     {
@@ -307,7 +307,7 @@ export const produtos = [
     },
     {
         id: 31,
-        nome: "Guarana lata",
+        nome: "Guaraná lata",
         categoria: "Bebidas",
         preco: 7.00,
         imagem: guaranaLata,
@@ -328,14 +328,14 @@ export const produtos = [
     }, 
     {
         id: 34,
-        nome: "Fanta Laranja lata",
+        nome: "Fanta laranja lata",
         categoria: "Bebidas",
         preco: 7.00,
         imagem: fantaLaranja,
     }, 
     {
         id: 35,
-        nome: "Swepps lata",
+        nome: "Schweppes lata",
         categoria: "Bebidas",
         preco: 7.00,
         imagem: sweppsLata,
@@ -356,14 +356,14 @@ export const produtos = [
     }, 
     {
         id: 38,
-        nome: "Guarana 600ml",
+        nome: "Guaraná 600ml",
         categoria: "Bebidas",
         preco: 8.00,
         imagem: guarana600,
     }, 
     {
         id: 39,
-        nome: "Guarana 600ml zero",
+        nome: "Guaraná 600ml zero",
         categoria: "Bebidas",
         preco: 8.00,
         imagem: guarana600Zero,
@@ -398,7 +398,7 @@ export const produtos = [
     }, 
     {
         id: 44,
-        nome: "Dell Vale pessego lata",
+        nome: "Dell Vale pêssego lata",
         categoria: "Bebidas",
         preco: 7.00,
         imagem: dellVallePessego,
@@ -412,7 +412,7 @@ export const produtos = [
     }, 
     {
         id: 46,
-        nome: "Suco natural de laranja 500ml",
+        nome: "Suco natural de laranja 500ml(sem açúcar)",
         categoria: "Bebidas",
         preco: 10.00,
         imagem:sucoNatural,
@@ -440,7 +440,7 @@ export const produtos = [
     }, 
     {
         id: 50,
-        nome: "Skol Lata",
+        nome: "Skol lata",
         categoria: "Bebidas",
         preco: 6.00,
         imagem: skol,
@@ -465,7 +465,7 @@ export const produtos = [
         nome: "Pastel Costela",
         categoria: "Pastel",
         preco: 22.00,
-        descricao: "Pastel recheado com costela desfiada e queijo",
+        descricao: "Pastel recheado com costela desfiada e mussarela",
         imagem: carneSeca
     }
 

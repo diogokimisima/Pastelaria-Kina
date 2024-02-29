@@ -105,7 +105,7 @@ const Sobre = () => {
         >
           <div className="texto-cards">
             <h2> Ambiente </h2>
-            <p>Na Pastelaria Kina, o ambiente é todo ao ar livre, na Praça Paraíso é aquele lugar onde você pode relaxar, saborear a comida deliciosa e curtir o ambiente descontraído. Não é só sobre os pasteis incríveis, mas também sobre aproveitar o cenário ao redor.
+            <p>Além do pasteis incíveis. Na Pastelaria Kina, o ambiente é todo ao ar livre na Praça Paraíso, é aquele lugar onde você pode relaxar, saborear e curtir com amigos e familiares o ambiente descontraído.
             </p>
           </div>
           <img src={ambiente} alt="ambiente" />

@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer';
 import Topo from '../../Componentes/Topo';
 import Banner from '../../Componentes/Banner';
 import Horarios from '../../Componentes/Horarios';
-import Servicos from '../../Componentes/Servicos';
+
 import Rodape from '../../Componentes/Rodape';
 import { ScrollToTopButton } from '../../Componentes/VoltarTopo';
 
@@ -20,7 +20,6 @@ const Home = () => {
   };
 
   const [ref1, inView1] = useInView({ triggerOnce: true });
-  const [ref2, inView2] = useInView({ triggerOnce: true });
   const [ref3, inView3] = useInView({ triggerOnce: true });
   
   return (
@@ -36,17 +35,6 @@ const Home = () => {
         ref={ref1}
       >
         <Banner />
-      </motion.section>
-
-       <motion.section
-        className="secao-servicos"
-        initial="hidden"
-        animate={inView2 ? "visible" : "hidden"}
-        variants={variants}
-        transition={{ ...transition, delay: 0.4 }}
-        ref={ref2}
-      >
-        <Servicos />
       </motion.section>
 
       <motion.section

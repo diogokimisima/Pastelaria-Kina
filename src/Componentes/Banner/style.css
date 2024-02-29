@@ -41,16 +41,23 @@
     font-size: 30px;
 }
 
-.secao-icone {
+.secao-icone img {
     margin-top: 25px;
+    height: 40px;
 }
 
+.secao-icone img:hover {
+    transform: translateY(-8px);
+    transition: all 0.8s ease-in-out;
+}
 
 .icone {
     max-width: auto;
     height: 30px;
     margin-right: 20px;
-
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    /* Sombra suave para a direita */
 }
 
 .secao-link-cardapio {
@@ -58,7 +65,7 @@
     width: 180px;
     height: 75px;
     font-weight: bold;
-    margin:30px 0;
+    margin: 30px 0;
     background-color: #4CAF50;
 }
 
@@ -72,10 +79,8 @@
     text-decoration: none;
     letter-spacing: 2px;
     color: white;
+   
 }
-
-
-
 
 @media screen and (max-width: 768px) {
     .imagem-de-fundo {
@@ -97,6 +102,12 @@
 
     .texto-secaoBanner h2 {
         font-size: 50px;
-        
+
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .texto-secaoBanner p {
+        font-size: 20px;
     }
 }

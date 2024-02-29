@@ -9,7 +9,7 @@ export default function Banner() {
             <div className="imagem-de-fundo"></div>
             <div className="texto-secaoBanner">
                 <h2> Pastelaria Kina </h2>
-                <p>O melhor <span>pastel</span> da região</p>
+                <p>O <span>pastel</span> tradicional da feira</p>
                 <div className="secao-link-cardapio">
                 <Link className="cardapio-botao" to="/Cardapio">VER CARDÁPIO</Link>
                 </div>
