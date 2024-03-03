@@ -128,7 +128,7 @@ export const produtos = [
 
     {
         id: 9,
-        nome: "Carne com Queijo",
+        nome: "Carne com queijo",
         categoria: "Pastel",
         preco: 13.00,
         descricao: "Pastel recheado com carne moída e mussarela",
@@ -152,7 +152,7 @@ export const produtos = [
     },
     {
         id: 12,
-        nome: "Frango Catupiry",
+        nome: "Frango catupiry",
         categoria: "Pastel",
         preco: 13.00,
         descricao: "Pastel recheado com frango desfiado e catupiry",
@@ -192,7 +192,7 @@ export const produtos = [
     },
     {
         id: 17,
-        nome: "Palmito Catupiry",
+        nome: "Palmito catupiry",
         categoria: "Pastel",
         preco: 13.00,
         descricao: "Pastel recheado com palmito e catupiry",
@@ -232,7 +232,7 @@ export const produtos = [
     },
     {
         id: 22,
-        nome: "Lombo Canadense",
+        nome: "Lombo canadense",
         categoria: "Pastel",
         preco: 16.00,
         descricao: "Pastel recheado com lombo canadense, mussarela, catupiry e uma rodela de tomate",
@@ -321,7 +321,7 @@ export const produtos = [
     }, 
     {
         id: 33,
-        nome: "Fanta Uva lata",
+        nome: "Fanta uva lata",
         categoria: "Bebidas",
         preco: 7.00,
         imagem: fantaUva,
@@ -462,7 +462,7 @@ export const produtos = [
     },
     {
         id: 53,
-        nome: "Pastel Costela",
+        nome: "Costela com queijo",
         categoria: "Pastel",
         preco: 22.00,
         descricao: "Pastel recheado com costela desfiada e mussarela",
