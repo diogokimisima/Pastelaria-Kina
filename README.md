@@ -1,7 +1,7 @@
 <h1 align="center">Pastelaria Kina</h1>
 
 > 🔎 Projeto de com página Home, Cardápio e Sobre <br>
-🗔 Confira a aplicação: https://pastelaria-kina.vercel.app <br>
+🗔 Confira a aplicação: https://pastelariakina.com.br <br>
   <img src="src/img/gif.gif" alt="Video Projeto" width="100%"/>
   
 ## :page_facing_up: Explicação
