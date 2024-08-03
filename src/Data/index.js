@@ -113,7 +113,7 @@ export const produtos = [
         id: 7,
         nome: "Massinha",
         categoria: "Massa",
-        preco: 8.00,
+        preco: 10.00,
         descricao: "pacote com mini massinhas de pastel",
         imagem: massinha,
     },
@@ -139,7 +139,7 @@ export const produtos = [
         nome: "Carne",
         categoria: "Pastel",
         preco: 13.00,
-        descricao: "Pastel recheado com carne moída",
+        descricao: "Pastel recheado com carne moída e uma azeitona",
         imagem: carne,
     },
     {
@@ -171,7 +171,7 @@ export const produtos = [
         nome: "Bauru",
         categoria: "Pastel",
         preco: 13.00,
-        descricao: "Pastel recheado com presunto, mussarela e tomate",
+        descricao: "Pastel recheado com presunto, mussarela e uma rodela de tomate",
         imagem: bauru,
     },
     {
@@ -203,7 +203,7 @@ export const produtos = [
         nome: "Banana",
         categoria: "Pastel",
         preco: 13.00,
-        descricao: "Pastel recheado de banana com açúcar e canela ao redor",
+        descricao: "Pastel recheado com banana e polvilhado com açúcar e canela",
         imagem: banana,
     },
     {
@@ -337,7 +337,7 @@ export const produtos = [
         id: 35,
         nome: "Schweppes lata",
         categoria: "Bebidas",
-        preco: 7.00,
+        preco: 8.00,
         imagem: sweppsLata,
     },    
     {
@@ -456,7 +456,7 @@ export const produtos = [
         id: 52,
         nome: "Pastel de vento",
         categoria: "Massa",
-        preco: 8.00,
+        preco: 10.00,
         descricao: "Pastel sem recheio",
         imagem: pastelVento
     },

@@ -7,7 +7,7 @@ import { ScrollToTopButton } from '../../Componentes/VoltarTopo';
 import foodTrucks from '../../img/foodtrucks.jpg';
 import vinagrete from '../../img/vinagrete.jpg';
 import senha from '../../img/senha-pedidos.jpg';
-import ambiente from '../../img/ambiente2.jpg';
+import ambiente from '../../img/ambiente1.jpg';
 
 const Sobre = () => {
   const variants = {
@@ -41,7 +41,7 @@ const Sobre = () => {
       <main className='secao-main-sobre limitar-secao'>
         <h1>Sobre nós</h1>
 
-  
+
         <motion.section
           className="secao-card foodtruck"
           initial="hidden"
@@ -52,14 +52,14 @@ const Sobre = () => {
         >
           <img src={foodTrucks} alt="Food Truck" />
           <div className="texto-cards">
-            <h2>Nossas Foods trucks</h2>
+            <h2>Nossas FOOD TRUCKS</h2>
             <p>
               Com o tempo investimos em modernos food trucks para atender a um público mais amplo, sempre mantendo a qualidade e eficiência como nossas prioridades.
             </p>
           </div>
         </motion.section>
 
-       
+
         <motion.section
           className="secao-card secao-vinagrete"
           initial="hidden"
@@ -71,19 +71,19 @@ const Sobre = () => {
           <div className="texto-cards">
             <h2>Vinagrete</h2>
             <p>
-              Os pasteis são acompanhados por um vinagrete exclusivo. Complementando a massa crocante e o recheio dos pasteis, proporcionando aos clientes uma combinação perfeita
+              Todos os pasteis são acompanhados pelo tradicional vinagrete.
             </p>
           </div>
           <img src={vinagrete} alt="vinagrete" />
         </motion.section>
 
-      
+
         <motion.section
           className="secao-card secao-senha"
           initial="hidden"
           animate={inView3 ? "visible" : "hidden"}
           variants={variants}
-          transition={{ ...transition, delay: 0.4}}
+          transition={{ ...transition, delay: 0.4 }}
           ref={ref3}
         >
           <img src={senha} alt="senha" />
@@ -94,7 +94,7 @@ const Sobre = () => {
           </div>
         </motion.section>
 
-      
+
         <motion.section
           className="secao-card secao-ambiente"
           initial="hidden"
@@ -105,7 +105,7 @@ const Sobre = () => {
         >
           <div className="texto-cards">
             <h2> Ambiente </h2>
-            <p>Além do pasteis incíveis. Na Pastelaria Kina, o ambiente é todo ao ar livre na Praça Paraíso, é aquele lugar onde você pode relaxar, saborear e curtir com amigos e familiares o ambiente descontraído.
+            <p>Localizada na Praça Paraíso, a Pastelaria Kina possui ambiente ao ar livre. Além dos deliciosos pastéis, é um lugar descontraído em que você pode relaxar e curtir com amigos e familiares.
             </p>
           </div>
           <img src={ambiente} alt="ambiente" />

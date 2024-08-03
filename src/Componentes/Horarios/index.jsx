@@ -4,7 +4,7 @@ import local from  '../../img/local.png';
 export default function Horarios() {
   return (
     <main className='secao-tabela limitar-secao'>
-      <h2>Atendemos Araçatuba-SP e Birigui-SP</h2>
+      <h2>Atendimento: Araçatuba e Birigui</h2>
       <div className='cards-horario'>
       <section className='table1'>
         <table>
