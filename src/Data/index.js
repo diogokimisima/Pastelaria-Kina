@@ -211,7 +211,7 @@ export const produtos = [
         nome: "Doce",
         categoria: "Pastel",
         preco: 13.00,
-        descricao: "Pastel recheado com chocolate e doce de leite",
+        descricao: "Pastel recheado com gotas de chocolate ",
         imagem: doce,
     },
     {
