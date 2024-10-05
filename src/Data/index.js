@@ -121,7 +121,7 @@ export const produtos = [
         id: 8,
         nome: "Massa",
         categoria: "Massa",
-        preco: 22.00,
+        preco: 25.00,
         descricao: "Rolo da massa de pastel",
         imagem: massa,
     },
@@ -211,7 +211,7 @@ export const produtos = [
         nome: "Doce",
         categoria: "Pastel",
         preco: 13.00,
-        descricao: "Pastel recheado com gotas de chocolate ",
+        descricao: "Pastel recheado com gotas de chocolate e doce de leite",
         imagem: doce,
     },
     {
@@ -414,7 +414,7 @@ export const produtos = [
         id: 46,
         nome: "Suco natural de laranja 500ml(sem açúcar)",
         categoria: "Bebidas",
-        preco: 10.00,
+        preco: 12.00,
         imagem:sucoNatural,
     },
     {
