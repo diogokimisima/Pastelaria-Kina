@@ -7,7 +7,7 @@ import { ScrollToTopButton } from '../../Componentes/VoltarTopo';
 import foodTrucks from '../../img/foodtrucks.jpg';
 import vinagrete from '../../img/vinagrete.jpg';
 import senha from '../../img/senha-pedidos.jpg';
-import ambiente from '../../img/ambiente1.jpg';
+import ambiente from '../../img/ambiente3.jpg';
 
 const Sobre = () => {
   const variants = {

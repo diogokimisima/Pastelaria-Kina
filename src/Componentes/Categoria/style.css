@@ -10,6 +10,7 @@
 
 .container-botoes {
     display: flex;
+    align-items: flex-start;
     justify-content: space-around;
     gap: 10px;
     flex-wrap: nowrap;
