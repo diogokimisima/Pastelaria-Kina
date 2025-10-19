@@ -1,11 +1,12 @@
 .card {
-    width: 250px;
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
     border: 2px solid goldenrod;
     border-radius: 8px;
     background-color: white;
+    padding: 12px; /* Adicione esta linha para espaçamento interno */
+    box-sizing: border-box; /* Garante que padding não quebre o layout do grid */
+    margin: 0; /* Garante que o grid controla o espaçamento */
 }
 
 .card figure {

@@ -1,63 +1,171 @@
-
-.secao-cards {
-    max-width: 1324px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 10px;
-    margin: 0 auto;
-}
-
-.container-principal div h2 {
-    font-family: "Poppins", sans-serif;
-    color: #139b51;
-    font-size: 20px;
-    text-align: center; 
-    margin: 20px;   
-    letter-spacing: 5px;
-}
-
-.container-principal div h4 {
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-size: 35px;
-    margin-bottom: 70px;
-}
-
-.container-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
-    border-radius: 4px;
-    gap: 40px;
+.cardapio-page {
+    background-color: #f9f6ee;
 }
 
 .container-principal {
     padding-top: 90px;
-    background-color: #f9f6ee;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 60px;
 }
 
+.cardapio-header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0 16px;
+}
 
+.cardapio-header h2 {
+    font-family: "Poppins", sans-serif;
+    color: #139b51;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.cardapio-header h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    color: #333;
+    font-weight: 600;
+}
+
+.secao-cards {
+    max-width: 100%;
+    padding: 0 16px;
+    margin-bottom: 24px; /* Espaço abaixo dos cards */
+}
+
+.container-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+    width: 100%;
+    padding: 16px 0; /* Espaço acima e abaixo dos cards */
+}
+
+.loading-state {
+    text-align: center;
+    padding: 40px;
+    font-size: 16px;
+    color: #777;
+}
+
+.no-results {
+    text-align: center;
+    padding: 40px;
+    font-size: 16px;
+    color: #777;
+    grid-column: 1 / -1;
+}
+
+@media (max-width: 768px) {
+    .container-principal {
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+    
+    .cardapio-header {
+        margin-bottom: 30px;
+    }
+    
+    .cardapio-header h3 {
+        font-size: 24px;
+    }
+    
+    .container-cards {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-principal {
+        padding-top: 60px;
+    }
+    
+    .cardapio-header {
+        margin-bottom: 20px;
+    }
+    
+    .cardapio-header h2 {
+        font-size: 14px;
+    }
+    
+    .cardapio-header h3 {
+        font-size: 20px;
+    }
+    
+    .container-cards {
+        grid-template-columns: 1fr;
+        gap: 36px; /* Gap aumentado para dar mais espaço entre os cards */
+        padding: 16px 0 36px 0; /* Espaço extra acima e abaixo */
+    }
+}
+
+.card-skeleton {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid goldenrod;
+    border-radius: 8px;
+    background-color: white;
+    padding: 12px;
+    box-sizing: border-box;
+    margin: 0;
+    min-height: 320px;
+    gap: 0;
+    animation: pulse 1.2s infinite ease-in-out;
+}
+
+.card-skeleton .skeleton-img {
+    width: 100%;
+    height: 250px;
+    background: #e0e0e0;
+    border-radius: 4px;
+}
+
+.card-skeleton .skeleton-title {
+    width: 70%;
+    height: 18px;
+    background: #e0e0e0;
+    border-radius: 4px;
+    margin: 16px 0 8px 0;
+}
+
+.card-skeleton .skeleton-text {
+    width: 100%;
+    height: 12px;
+    background: #e0e0e0;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
 
 @media (max-width: 600px) {
-    .container-cards {
-        display: flex;
-        flex-direction: column;
+    .card-skeleton {
+        flex-direction: row;
+        min-height: 120px;
+        padding: 8px;
     }
-}
-
-@media (max-width: 750px){
-    .container-principal div h4{
-        font-size: 30px;
+    .card-skeleton .skeleton-img {
+        width: 100px;
+        height: 100px;
+        min-width: 100px;
+        border-radius: 4px;
     }
-}
-@media (max-width: 500px){
-    .container-principal div h4{
-        font-size: 23px;
-        margin-bottom: 10px;
+    .card-skeleton .skeleton-title,
+    .card-skeleton .skeleton-text {
+        margin-left: 12px;
+        margin-top: 0;
     }
-    .container-principal div h2{
-        font-size: 20px;
+    .card-skeleton .skeleton-title {
+        width: 60%;
+        height: 14px;
+        margin-bottom: 6px;
+    }
+    .card-skeleton .skeleton-text {
+        width: 90%;
+        height: 10px;
+        margin-bottom: 4px;
     }
 }
