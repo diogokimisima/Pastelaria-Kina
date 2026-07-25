@@ -285,7 +285,7 @@ export const produtos = [
         id: 28,
         nome: "Camarão",
         categoria: "Pastel",
-        preco: 25.00,
+        preco: 30.00,
         descricao: "Pastel recheado com camarão e catupiry ",
         imagem: camarao,
     },
