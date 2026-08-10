@@ -13,101 +13,166 @@
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: contain;
-    border-radius: 20px;
+    border-radius: var(--radius-lg);
 }
 
 .texto-secaoBanner {
     width: 50%;
-    padding: 0px 20px;
+    padding: 0px 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #f9f6ee;
+    background-color: var(--color-bg);
 }
 
 .texto-secaoBanner h2 {
-    font-size: 60px;
-    font-weight: bold;
-    color: #111111;
-    font-family: 'Palanquin Dark', sans-serif;
-    letter-spacing: 2px;
+    font-size: 52px;
+    font-weight: 700;
+    color: var(--color-text);
+    letter-spacing: 0.5px;
+    line-height: 1.1;
 }
 
 .texto-secaoBanner span {
-    color: #fbcb0c;
+    color: var(--color-accent);
 }
 
 .texto-secaoBanner p {
-    font-size: 30px;
+    font-size: 20px;
+    color: var(--color-text-muted);
+    margin-top: 10px;
+    font-weight: 400;
 }
 
 .secao-icone img {
-    margin-top: 25px;
-    height: 40px;
+    margin-top: 0;
+    height: 22px;
 }
 
 .secao-icone img:hover {
-    transform: translateY(-8px);
-    transition: all 0.8s ease-in-out;
+    transform: translateY(-4px);
+    transition: transform var(--transition);
 }
 
 .icone {
     max-width: auto;
-    height: 30px;
-    margin-right: 20px;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-    /* Sombra suave para a direita */
+    height: 20px;
+    margin-right: 16px;
+    border-radius: 50%;
+    box-shadow: none;
 }
 
 .secao-link-cardapio {
-    border-radius: 20px;
-    width: 180px;
-    height: 75px;
-    font-weight: bold;
-    margin: 30px 0;
-    background-color: #4CAF50;
+    border-radius: 999px;
+    width: fit-content;
+    font-weight: 600;
+    margin: 28px 0;
+    background-color: var(--color-primary);
+    box-shadow: var(--shadow-sm);
+    transition: background-color var(--transition), transform var(--transition);
+}
+
+.secao-link-cardapio:hover {
+    background-color: var(--color-primary-dark);
+    transform: translateY(-2px);
 }
 
 .cardapio-botao {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
     text-align: center;
-    padding-top: 25px;
+    padding: 16px 32px;
     text-decoration: none;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 14px;
     color: white;
-   
 }
 
 @media screen and (max-width: 768px) {
+    .secao-banner {
+        height: 560px;
+        overflow: hidden;
+        border-radius: 0;
+    }
+
     .imagem-de-fundo {
-        width: 0;
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        z-index: 0;
+    }
+
+    .imagem-de-fundo::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, rgba(20, 17, 10, 0.45) 0%, rgba(20, 17, 10, 0.35) 40%, rgba(20, 17, 10, 0.6) 100%);
     }
 
     .texto-secaoBanner {
+        position: relative;
+        z-index: 1;
         width: 100%;
-
-    }
-
-    .secao-banner {
-        height: 450px;
-    }
-
-    .texto-secaoBanner p {
-        font-size: 25px;
+        height: 100%;
+        padding: 0 24px;
+        background-color: transparent;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .texto-secaoBanner h2 {
-        font-size: 50px;
+        color: #ffffff;
+        font-size: 38px;
+    }
 
+    .texto-secaoBanner p {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 18px;
+    }
+
+    .secao-link-cardapio {
+        margin: 22px 0 10px;
+    }
+
+    .secao-icone {
+        display: flex;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    .secao-icone .card-icone {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(2px);
+    }
+
+    .icone {
+        height: 18px;
+        margin-right: 0;
+        filter: brightness(0) invert(1);
+        box-shadow: none;
     }
 }
 
 @media screen and (max-width: 400px) {
+    .secao-banner {
+        height: 480px;
+    }
+
+    .texto-secaoBanner h2 {
+        font-size: 32px;
+    }
+
     .texto-secaoBanner p {
-        font-size: 20px;
+        font-size: 16px;
     }
 }

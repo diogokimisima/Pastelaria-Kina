@@ -2,16 +2,23 @@
     z-index: 99;
     position: fixed;
     bottom: 20px;
-    right: 8px;
-    width: 55px;
-    height: 55px;
-    border-radius: 20px;
-    background-color: #139b51;
+    right: 16px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    box-shadow: var(--shadow-md);
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px;
+    margin: 0;
+    transition: transform var(--transition), background-color var(--transition);
+  }
+
+  .voltar-topo:hover {
+    background-color: var(--color-primary-dark);
+    transform: translateY(-3px);
   }
 
   .seta{

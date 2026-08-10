@@ -39,7 +39,10 @@ const Sobre = () => {
     <div className='secao-principal-sobre'>
       <Topo />
       <main className='secao-main-sobre limitar-secao'>
-        <h1>Sobre nós</h1>
+        <div className="sobre-header">
+          <h2>Sobre</h2>
+          <h1>A nossa história</h1>
+        </div>
 
 
         <motion.section

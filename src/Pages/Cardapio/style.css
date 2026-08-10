@@ -1,9 +1,9 @@
 .cardapio-page {
-    background-color: #f9f6ee;
+    background-color: var(--color-bg);
 }
 
 .container-principal {
-    padding-top: 90px;
+    padding-top: calc(var(--header-h) + 32px);
     max-width: 1200px;
     margin: 0 auto;
     padding-bottom: 60px;
@@ -16,18 +16,17 @@
 }
 
 .cardapio-header h2 {
-    font-family: "Poppins", sans-serif;
-    color: #139b51;
-    font-size: 16px;
+    color: var(--color-primary);
+    font-size: 13px;
     letter-spacing: 3px;
     text-transform: uppercase;
     margin-bottom: 8px;
+    font-weight: 600;
 }
 
 .cardapio-header h3 {
-    font-family: "Poppins", sans-serif;
     font-size: 28px;
-    color: #333;
+    color: var(--color-text);
     font-weight: 600;
 }
 
@@ -62,7 +61,7 @@
 
 @media (max-width: 768px) {
     .container-principal {
-        padding-top: 70px;
+        padding-top: calc(var(--header-h) + 20px);
         padding-bottom: 40px;
     }
     
@@ -82,7 +81,7 @@
 
 @media (max-width: 480px) {
     .container-principal {
-        padding-top: 60px;
+        padding-top: calc(var(--header-h) + 16px);
     }
     
     .cardapio-header {
@@ -107,14 +106,15 @@
 .card-skeleton {
     display: flex;
     flex-direction: column;
-    border: 2px solid goldenrod;
-    border-radius: 8px;
-    background-color: white;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background-color: var(--color-surface);
     padding: 12px;
     box-sizing: border-box;
     margin: 0;
     min-height: 320px;
     gap: 0;
+    box-shadow: var(--shadow-sm);
     animation: pulse 1.2s infinite ease-in-out;
 }
 
@@ -141,7 +141,7 @@
     margin-bottom: 8px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     .card-skeleton {
         flex-direction: row;
         min-height: 120px;
