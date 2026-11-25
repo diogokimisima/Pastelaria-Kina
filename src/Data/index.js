@@ -30,6 +30,8 @@ import bauru from '../img/pastel-bauru.jpg';
 import romeu from '../img/pastel-romeu.jpg';
 import quatroQueijo from '../img/pastel-4queijo.jpg';
 import pastelVento from '../img/icone-pastel.png';
+import carneOvo from '../img/pastel-carne-ovo.png';
+import carneQueijoOvo from '../img/pastel-carne-queijo-ovo.webp';
 
 //BEBIDAS
 import cocaLata from '../img/coca-lata.png';
@@ -55,6 +57,11 @@ import aguaGas from '../img/agua-gas.png';
 import brahma from '../img/brahma.png'
 import skol from '../img/skol.png';
 import heineken from '../img/heineken.png';
+import guaranaMini from '../img/guarana-mini.webp';
+import pepsiMini from '../img/pepsi-mini.png';
+import kapoUva from '../img/kapo-uva.webp';
+import kapoMorango from '../img/kappo-morango.webp';
+import monster from '../img/mosnter.png';
 
 
 
@@ -64,7 +71,7 @@ export const produtos = [
         id: 1,
         nome: "Coxinha de frango",
         categoria: "Salgados",
-        preco: 3.00,
+        preco: 4.00,
         descricao: "Coxinha com massa de batata recheado com frango",
         imagem: coxFrango,
     },
@@ -72,7 +79,7 @@ export const produtos = [
         id: 2,
         nome: "Bolinha de queijo",
         categoria: "Salgados",
-        preco: 3.00,
+        preco: 4.00,
         descricao: "Bolinho com massa de mandioca recheado com mussarela",
         imagem: bolQueijo,
     },
@@ -80,7 +87,7 @@ export const produtos = [
         id: 3,
         nome: "Coxinha de carne",
         categoria: "Salgados",
-        preco: 3.00,
+        preco: 4.00,
         descricao: "Coxinha com massa de mandioca recheado com carne",
         imagem: coxCarne,
     },
@@ -89,7 +96,7 @@ export const produtos = [
         id: 4,
         nome: "Bolinho de bacalhau",
         categoria: "Salgados",
-        preco: 8.00,
+        preco: 9.00,
         descricao: "Bolinho de bacalhau com batata",
         imagem: bolBacalhau,
     },
@@ -97,7 +104,7 @@ export const produtos = [
         id: 5,
         nome: "Kibe de queijo",
         categoria: "Salgados",
-        preco: 8.00,
+        preco: 9.00,
         descricao: "Massa de kibe recheado com mussarela",
         imagem: kibeQueijo,
     },
@@ -105,7 +112,7 @@ export const produtos = [
         id: 6,
         nome: "Kibe de carne",
         categoria: "Salgados",
-        preco: 8.00,
+        preco: 9.00,
         descricao: "Massa de kibe recheado com carne",
         imagem: kibeCarne,
     },
@@ -130,7 +137,7 @@ export const produtos = [
         id: 9,
         nome: "Carne com queijo",
         categoria: "Pastel",
-        preco: 16.00,
+        preco: 17.00,
         descricao: "Pastel recheado com carne moída e mussarela",
         imagem: carneQueijo,
     },
@@ -138,15 +145,31 @@ export const produtos = [
         id: 10,
         nome: "Carne",
         categoria: "Pastel",
-        preco: 16.00,
+        preco: 17.00,
         descricao: "Pastel recheado com carne moída e uma azeitona",
         imagem: carne,
+    },
+    {
+        id: 54,
+        nome: "Carne com queijo e ovo",
+        categoria: "Pastel",
+        preco: 20.00,
+        descricao: "Pastel recheado com carne moída, mussarela e ovo",
+        imagem: carneQueijoOvo,
+    },
+    {
+        id: 55,
+        nome: "Carne com ovo",
+        categoria: "Pastel",
+        preco: 17.00,
+        descricao: "Pastel recheado com carne moída e ovo",
+        imagem: carneOvo,
     },
     {
         id: 11,
         nome: "Queijo",
         categoria: "Pastel",
-        preco: 16.00,
+        preco: 17.00,
         descricao: "Pastel recheado com queijo mussarela",
         imagem: queijo,
     },
@@ -154,7 +177,7 @@ export const produtos = [
         id: 12,
         nome: "Frango catupiry",
         categoria: "Pastel",
-        preco: 16.00,
+        preco: 17.00,
         descricao: "Pastel recheado com frango desfiado e catupiry",
         imagem: frango,
     },
@@ -162,7 +185,7 @@ export const produtos = [
         id: 13,
         nome: "Pizza",
         categoria: "Pastel",
-        preco: 16.00,
+        preco: 17.00,
         descricao: "Pastel recheado com mussarela, orégano e uma rodela de tomate",
         imagem: pizza,
     },
@@ -170,7 +193,7 @@ export const produtos = [
         id: 14,
         nome: "Bauru",
         categoria: "Pastel",
-        preco: 16.00,
+        preco: 17.00,
         descricao: "Pastel recheado com presunto, mussarela e uma rodela de tomate",
         imagem: bauru,
     },
@@ -178,7 +201,7 @@ export const produtos = [
         id: 15,
         nome: "Calabresa",
         categoria: "Pastel",
-        preco: 16.00,
+        preco: 17.00,
         descricao: "Pastel recheado com calabresa, mussarela e uma rodela de tomate",
         imagem: calabresa,
     },
@@ -186,7 +209,7 @@ export const produtos = [
         id: 16,
         nome: "Palmito",
         categoria: "Pastel",
-        preco: 16.00,
+        preco: 17.00,
         descricao: "Pastel recheado com palmito",
         imagem: palmito,
     },
@@ -194,7 +217,7 @@ export const produtos = [
         id: 17,
         nome: "Palmito catupiry",
         categoria: "Pastel",
-        preco: 16.00,
+        preco: 17.00,
         descricao: "Pastel recheado com palmito e catupiry",
         imagem: palmitoCatupiry,
     },
@@ -202,7 +225,7 @@ export const produtos = [
         id: 18,
         nome: "Banana",
         categoria: "Pastel",
-        preco: 16.00,
+        preco: 17.00,
         descricao: "Pastel recheado com banana e polvilhado com açúcar e canela",
         imagem: banana,
     },
@@ -210,7 +233,7 @@ export const produtos = [
         id: 19,
         nome: "Doce",
         categoria: "Pastel",
-        preco: 16.00,
+        preco: 17.00,
         descricao: "Pastel recheado com gotas de chocolate e doce de leite",
         imagem: doce,
     },
@@ -218,7 +241,7 @@ export const produtos = [
         id: 20,
         nome: "Romeu e julieta",
         categoria: "Pastel",
-        preco: 16.00,
+        preco: 17.00,
         descricao: "Pastel recheado com goiabada e mussarela ",
         imagem: romeu,
     },
@@ -268,7 +291,7 @@ export const produtos = [
         id: 26,
         nome: "Carne seca",
         categoria: "Pastel",
-        preco: 25.00,
+        preco: 30.00,
         descricao: "Pastel recheado com carne seca desfiada, catupiry e uma rodela de tomate",
         imagem: carneSeca,
     },
@@ -277,7 +300,7 @@ export const produtos = [
         id: 27,
         nome: "Especial",
         categoria: "Pastel",
-        preco: 25.00,
+        preco: 30.00,
         descricao: "Pastel recheado com carne moída, mussarela, presunto, ovo cozido e uma azeitona",
         imagem: especial,
     },
@@ -285,7 +308,7 @@ export const produtos = [
         id: 28,
         nome: "Camarão",
         categoria: "Pastel",
-        preco: 30.00,
+        preco: 35.00,
         descricao: "Pastel recheado com camarão e catupiry ",
         imagem: camarao,
     },
@@ -464,10 +487,45 @@ export const produtos = [
         id: 53,
         nome: "Costela com queijo",
         categoria: "Pastel",
-        preco: 25.00,
+        preco: 30.00,
         descricao: "Pastel recheado com costela desfiada e mussarela",
         imagem: carneSeca
-    }
+    },
+    {
+        id: 56,
+        nome: "Guaraná mini",
+        categoria: "Bebidas",
+        preco: 5.00,
+        imagem: guaranaMini,
+    },
+    {
+        id: 57,
+        nome: "Pepsi mini",
+        categoria: "Bebidas",
+        preco: 5.00,
+        imagem: pepsiMini,
+    },
+    {
+        id: 58,
+        nome: "Kapo uva",
+        categoria: "Bebidas",
+        preco: 5.00,
+        imagem: kapoUva,
+    },
+    {
+        id: 59,
+        nome: "Kapo morango",
+        categoria: "Bebidas",
+        preco: 5.00,
+        imagem: kapoMorango,
+    },
+    {
+        id: 60,
+        nome: "Monster",
+        categoria: "Bebidas",
+        preco: 15.00,
+        imagem: monster,
+    },
 
 
 

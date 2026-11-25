@@ -4,7 +4,7 @@
     border: 1px solid var(--color-border);
     border-radius: var(--radius-md);
     background-color: var(--color-surface);
-    padding: 12px;
+    padding: 10px;
     box-sizing: border-box;
     margin: 0;
     box-shadow: var(--shadow-sm);
@@ -17,14 +17,23 @@
 }
 
 .card figure {
-    height: 250px;
-
+    margin: 0;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: var(--radius-sm);
+    overflow: hidden;
 }
 
 .card figure img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
     border-radius: var(--radius-sm);
 }
 
@@ -32,8 +41,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px;
-    flex: 1 1 150px;
+    padding: 8px 4px 0;
+    flex: 1 1 auto;
 }
 
 /* .container-informacoes div:nth-child(1) {
@@ -44,15 +53,15 @@
   } */
 
   .container-informacoes h3 {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
     margin-bottom: 2px;
   }
 
   .container-informacoes p {
     color: var(--color-text-muted);
-    font-size: 14px;
-    margin-top: 6px;
+    font-size: 13px;
+    margin-top: 4px;
     line-height: 1.4;
   }
 
@@ -68,28 +77,45 @@
     text-align: right;
     font-weight: 600;
     color: var(--color-primary-dark);
-    margin-top: 10px;
+    margin-top: 8px;
   }
 
   @media (max-width: 480px) {
     .card {
       width: 100%;
       flex-direction: row;
-      margin-bottom: -20px;
+      align-items: center;
+      gap: 12px;
+      padding: 8px;
     }
 
     .card figure {
-      width: 100px;
-      height: auto;
-      
+      flex: 0 0 80px;
+      width: 80px;
+      height: 80px;
+      aspect-ratio: 1 / 1;
+      align-self: center;
+    }
+
+    .card .container-informacoes {
+      padding: 0;
+      flex-direction: row;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .card .container-informacoes div:nth-child(2) {
+      margin-top: 0;
+      white-space: nowrap;
     }
 
     .card p {
       font-size: 12px;
+      margin-top: 2px;
     }
 
     .card h3 {
-      font-size: 16px;
+      font-size: 15px;
     }
   }
 

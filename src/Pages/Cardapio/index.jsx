@@ -1,5 +1,5 @@
 import './style.css';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import Topo from '../../Componentes/Topo';
 import Cards from '../../Componentes/Cards';
 import Categoria from '../../Componentes/Categoria';
@@ -9,6 +9,7 @@ import { ScrollToTopButton } from '../../Componentes/VoltarTopo';
 import {
   filtrarProdutos,
   produtosEntradas,
+  buscarProdutos,
 } from "../../Service";
 
 const SkeletonCard = () => (
@@ -23,8 +24,14 @@ const Cardapio = () => {
   const [dadosFiltrados, setDadosFiltrados] = useState(produtosEntradas);
   const [botaoClicado, setBotaoClicado] = useState("Pastel");
   const [isLoading, setIsLoading] = useState(false);
+  const [busca, setBusca] = useState("");
+
+  const buscando = busca.trim().length > 0;
+  const resultadosBusca = useMemo(() => buscarProdutos(busca), [busca]);
+  const produtosExibidos = buscando ? resultadosBusca : dadosFiltrados;
 
   const handleFiltro = (categoria) => {
+    setBusca("");
     setIsLoading(true);
     // Small delay to show loading state for better UX
     setTimeout(() => {
@@ -49,7 +56,41 @@ const Cardapio = () => {
           <h3>Conheça o nosso cardápio</h3>
         </div>
 
-        <Categoria handleFiltro={handleFiltro} botaoClicado={botaoClicado} />
+        <div className="busca-container">
+          <div className="busca-campo">
+            <svg className="busca-icone" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="11" cy="11" r="7" />
+              <line x1="16.5" y1="16.5" x2="21" y2="21" />
+            </svg>
+            <input
+              type="search"
+              value={busca}
+              onChange={(e) => setBusca(e.target.value)}
+              onKeyDown={(e) => e.key === "Escape" && setBusca("")}
+              placeholder="Buscar por nome ou ingrediente (ex: ovo, catupiry, refri)"
+              aria-label="Buscar no cardápio"
+            />
+            {buscando && (
+              <button
+                type="button"
+                className="busca-limpar"
+                onClick={() => setBusca("")}
+                aria-label="Limpar busca"
+              >
+                ×
+              </button>
+            )}
+          </div>
+          {buscando && (
+            <p className="busca-info">
+              {resultadosBusca.length === 0
+                ? <>Nenhum resultado para "<strong>{busca.trim()}</strong>"</>
+                : <>{resultadosBusca.length} {resultadosBusca.length === 1 ? "resultado" : "resultados"} para "<strong>{busca.trim()}</strong>"</>}
+            </p>
+          )}
+        </div>
+
+        <Categoria handleFiltro={handleFiltro} botaoClicado={buscando ? null : botaoClicado} />
 
         <section className="secao-cards">
           {isLoading ? (
@@ -60,13 +101,15 @@ const Cardapio = () => {
             </div>
           ) : (
             <div className="container-cards">
-              {dadosFiltrados.length > 0 ? (
-                dadosFiltrados.map((produto) => (
+              {produtosExibidos.length > 0 ? (
+                produtosExibidos.map((produto) => (
                   <Cards key={produto.id} produto={produto} />
                 ))
               ) : (
                 <div className="no-results">
-                  Nenhum item encontrado nesta categoria.
+                  {buscando
+                    ? "Nenhum produto encontrado. Tente outra palavra, como um ingrediente."
+                    : "Nenhum item encontrado nesta categoria."}
                 </div>
               )}
             </div>

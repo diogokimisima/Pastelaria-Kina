@@ -6,7 +6,7 @@ import Rodape from '../../Componentes/Rodape';
 import { ScrollToTopButton } from '../../Componentes/VoltarTopo';
 import foodTrucks from '../../img/foodtrucks.jpg';
 import vinagrete from '../../img/vinagrete.jpg';
-import senha from '../../img/senha-pedidos.jpg';
+import senha from '../../img/senha-pedidos.png';
 import ambiente from '../../img/ambiente3.jpg';
 
 const Sobre = () => {
